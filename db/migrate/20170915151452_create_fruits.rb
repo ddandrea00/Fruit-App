@@ -6,7 +6,7 @@ class CreateFruits < ActiveRecord::Migration[5.1]
       t.string :email
       t.string :location
       t.string :description
-
+      
       t.timestamps
     end
   end

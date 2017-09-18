@@ -1,0 +1,11 @@
+<h1>Fruits</h1>
+<p> <%= link_to "(+)", new_fruit_path %> </p>
+<ul>
+<% @fruits.each do |fruit| %>
+<li>
+  <div class="fruit">
+    <h2> <%= link_to fruit.name, fruit %> </h2>
+  </div>
+</li>
+<% end %>
+</ul>
