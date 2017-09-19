@@ -1,3 +1,8 @@
+<%= stylesheet_link_tag    "sign" %>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Thambi|Bowlby+One+SC|Changa+One|Chango|Chewy|Coiny|Erica+One|Fredoka+One|Happy+Monkey|Lilita+One|Modak|Peralta|Prosto+One|Rammetto+One|Spicy+Rice" rel="stylesheet">
+
+<h1> Fruit.io </h1>
+
 <h2>Log In</h2>
 
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
@@ -19,7 +24,7 @@
   <% end -%>
 
   <div class="actions">
-    <%= f.submit "Log in" %>
+    <%= f.submit "Log In" %>
   </div>
 <% end %>
 

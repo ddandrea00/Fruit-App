@@ -1,3 +1,8 @@
+<%= stylesheet_link_tag    "sign" %>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Thambi|Bowlby+One+SC|Changa+One|Chango|Chewy|Coiny|Erica+One|Fredoka+One|Happy+Monkey|Lilita+One|Modak|Peralta|Prosto+One|Rammetto+One|Spicy+Rice" rel="stylesheet">
+
+<h1> Fruit.io </h1>
+
 <h2>Sign Up</h2>
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
@@ -10,7 +15,7 @@
 
   <div class="field">
     <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true %>
+    <%= f.email_field :email %>
   </div>
 
   <div class="field">

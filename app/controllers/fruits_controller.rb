@@ -39,6 +39,6 @@ class FruitsController < ApplicationController
         end
 
       def fruit_params
-      params.require(:member).permit(:name, :phone, :email, :image_url, :location, :description)
+      params.require(:fruit).permit(:name, :phone, :email, :image_url, :location, :description)
       end
 end
