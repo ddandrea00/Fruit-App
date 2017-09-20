@@ -1,12 +1,14 @@
 body{
   text-align: center;
-  font-family: 'Rammetto One', cursive;
+  font-family: 'Questrial', sans-serif;
+  /*font-family: 'NTR', sans-serif;*/
 }
 
 h1{
   text-align: center;
   font-size: 50px;
-  font-family: 'Rammetto One', cursive;
+  font-family: 'Questrial', sans-serif;
+  /*font-family: 'NTR', sans-serif;*/
 }
 
 .field{

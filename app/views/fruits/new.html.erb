@@ -1,20 +1,24 @@
+<%= stylesheet_link_tag    "fruit" %>
 <h2>New Fruit</h2>
 
+<div id="new_form">
 <%= form_for @fruit do |f| %>
   <%= f.label :name %>
-  <%= f.text_field :name %>
+  <%= f.text_field :name %> <br />
 
   <%= f.label :phone %>
-  <%= f.text_field :phone %>
+  <%= f.text_field :phone %> <br />
 
   <%= f.label :email %>
-  <%= f.text_field :email %>
+  <%= f.text_field :email %> <br />
 
   <%= f.label :location %>
-  <%= f.text_field :location %>
+  <%= f.text_field :location %> <br />
 
   <%= f.label :description %>
-  <%= f.text_field :description %>
+  <%= f.text_field :description %> <br />
 
   <%= f.submit "Add Fruit" %>
 <% end %>
+
+</div>

@@ -1,11 +1,18 @@
-<h1>My Fruits</h1>
-<p> <%= link_to "(+)", new_fruit_path %> </p>
-<ul>
-<% @fruits.each do |fruit| %>
-<li>
-  <div class="fruit">
-    <h2> <%= link_to fruit.name, fruit %> </h2>
-  </div>
-</li>
-<% end %>
+<%= stylesheet_link_tag    "fruit" %>
+<h3>My Fruits</h3>
+<div class="control">
+<%= link_to "(+)", new_fruit_path %>
+<a> <i class="fa fa-sort-alpha-asc" aria-hidden="true"></i> </a>
+</div>
+
+<ul class = "fruits">
+  <% @fruits.each do |fruit| %>
+  <li>
+    <div id="fruit">
+      <h2> <%= link_to fruit.name, fruit %> </h2>
+      <p><%= fruit.created_at.strftime("%m-%d-%Y") %> <br />
+      <%= fruit.location %></p>
+    </div>
+  </li>
+  <% end %>
 </ul>
