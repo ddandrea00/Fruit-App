@@ -9,8 +9,7 @@ class FruitsController < ApplicationController
 
 
         def create
-          @fruit = Fruit.create(fruit_params)
-
+          @fruit = Fruit.create!(post_params.merge(user: current_user))
           redirect_to fruits_path(@fruit)
         end
 

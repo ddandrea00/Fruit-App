@@ -1,8 +1,11 @@
 <%= stylesheet_link_tag    "fruit" %>
 <h1><%= @fruit.name %></h1>
-<p> <%= link_to "Edit", edit_fruit_path %> </p>
+<div class="pic">
+  <img src="http://www.shawnee.edu/_resources/images/profile-placeholder.png">
+</div>
+<h4> Phone: <%=@fruit.phone %> </h4>
+<h4> E-mail: <%= @fruit.email %> </h4>
+<h4> Location: <%= @fruit.location %> </h4>
+<h4> Description: <%= @fruit.description %> </h4>
 
-<h3> Phone: <%=@fruit.phone %> </h3>
-<h3> E-mail: <%= @fruit.email %> </h3>
-<h3> Location: <%= @fruit.location %> </h3>
-<h3> Description: <%= @fruit.description %> </h3>
+<p> <%= link_to "Edit", edit_fruit_path %> </p>
