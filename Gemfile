@@ -30,6 +30,9 @@ gem 'jquery-rails', '~> 4.3'
 gem 'fullcalendar-rails'
 gem 'momentjs-rails'
 
+#Heroku Gem
+gem "rails_12factor", group: :production
+
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
