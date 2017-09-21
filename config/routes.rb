@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   resources :users
   resources :fruits
 
-  # get 'users/:id' => 'users#show'
+   get 'calendar' => 'calendar#index'
 end
