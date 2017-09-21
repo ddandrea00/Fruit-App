@@ -1,6 +1,6 @@
 body{
   font-family: 'Questrial', sans-serif;
-  
+
 }
 
 h1{
@@ -25,11 +25,5 @@ a{
  border:1px solid black;
  margin: 5px;
  padding: 10px;
-}
-
-
-#new_form{
-  display: flex;
-  justify-content: center;
-
+ 
 }
