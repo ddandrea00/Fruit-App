@@ -1,9 +1,12 @@
-# README
+# FRUIT.IO
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple contact management app to keep you organized.
 
-Things you may want to cover:
+Built Using Runy on Rails, Javascript, JQuery, and Bootstrap.
+
+Deployed on Heroku.
+
+Full CRUD Functionality
 
 * Ruby version
 
