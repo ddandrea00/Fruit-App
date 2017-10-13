@@ -1,4 +1,5 @@
 class Fruit < ApplicationRecord
   belongs_to :user,
+  has_many :appointments, through: :user 
   optional: true
 end

@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  has_many :appointments
   has_many :fruits, dependent: :destroy
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable

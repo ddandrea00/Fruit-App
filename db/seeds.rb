@@ -8,3 +8,4 @@
 
 User.destroy_all
 Fruit.destroy_all
+Appointment.destroy_all

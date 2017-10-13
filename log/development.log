@@ -24156,3 +24156,121 @@ Completed 200 OK in 564ms (Views: 501.7ms | ActiveRecord: 26.4ms)
 >>>>>>> master
 
 
+Started GET "/" for 127.0.0.1 at 2017-10-10 22:11:43 -0400
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/drewdandrea/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/drewdandrea/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (4.5ms)
+Completed 200 OK in 18ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-13 13:45:31 -0400
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/drewdandrea/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/drewdandrea/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (4.2ms)
+Completed 200 OK in 19ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2017-10-13 13:48:00 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/sign_in" for 127.0.0.1 at 2017-10-13 13:50:04 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/sign_in"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-10-13 13:50:34 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (316.7ms)
+Completed 200 OK in 504ms (Views: 445.8ms | ActiveRecord: 38.6ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-10-13 13:50:46 -0400
+Processing by RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 95ms (Views: 93.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-10-13 13:50:48 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 72ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-10-13 13:50:49 -0400
+Processing by RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 93ms (Views: 91.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-10-13 13:50:51 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 77ms (Views: 75.5ms | ActiveRecord: 0.0ms)
+
+
