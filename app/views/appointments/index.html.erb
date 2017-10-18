@@ -1,0 +1,22 @@
+<%= stylesheet_link_tag    "user" %>
+
+<h3>My Appointments</h3>
+<div class="control">
+<%= link_to "(+)", new_appointment_path %>
+<a> <i class="fa fa-sort-alpha-asc" aria-hidden="true"></i> </a>
+</div>
+
+<ul class = "appointments">
+  <% @appointments.each do |appointment| %>
+  <li>
+    <div id="appointment">
+      <h2> <%= link_to appointment.date_and_time.strftime("%m-%d-%Y"), appointment %> </h2>
+      <%= appointment.location %>
+      <br>
+      <%= appointment.notes%>
+      <p>Created On: <%= appointment.created_at.strftime("%m-%d-%Y") %> <br />
+      </p>
+    </div>
+  </li>
+  <% end %>
+</ul>

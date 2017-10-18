@@ -1,0 +1,6 @@
+<%= stylesheet_link_tag    "user" %>
+<h1><%= @appointment.date_and_time %></h1>
+<h4> Location: <%=@appointment.location %> </h4>
+<h4> E-mail: <%= @appointment.notes %> </h4>
+
+<p> <%= link_to "Edit", edit_appointment_path %> </p>

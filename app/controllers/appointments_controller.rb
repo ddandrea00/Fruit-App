@@ -1,15 +1,15 @@
 class AppointmentsController < ApplicationController
   def index
-        @appointments = Appointment.all
+        @appointments = current_user.appointments.all
       end
 
         def new
-          @appointment = Appointment.new
+          @appointment = current_user.appointments.new
         end
 
-
         def create
-          @appointment = Appointment.create!(appointment_params.merge(user: current_user))
+          
+          @appointment = current_user.appointments.create!(appointment_params)
           redirect_to appointments_path(@appointment)
         end
 
@@ -38,7 +38,7 @@ class AppointmentsController < ApplicationController
         end
 
       def appointment_params
-      params.require(:appointment).permit(:date_and_time, :created_on, :location, :notes)
+      params.require(:appointment).permit(:date_and_time, :created_on, :location, :notes, :fruit_id)
       end
 end
 

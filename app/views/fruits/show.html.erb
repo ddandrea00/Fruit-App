@@ -3,9 +3,42 @@
 <div class="pic">
   <img src="http://www.shawnee.edu/_resources/images/profile-placeholder.png">
 </div>
+<h3> <%= link_to "Edit Info", edit_fruit_path %> </h3>
 <h4> Phone: <%=@fruit.phone %> </h4>
 <h4> E-mail: <%= @fruit.email %> </h4>
 <h4> Location: <%= @fruit.location %> </h4>
 <h4> Description: <%= @fruit.description %> </h4>
 
-<p> <%= link_to "Edit", edit_fruit_path %> </p>
+<h2> 0 Appointments </h2>
+<%= link_to "(+)  Add Appointment", new_appointment_path %>
+<ul class = "appointments">
+  <% @appointments.each do |appointment| %>
+  <li>
+    <div id="appointment">
+      <h4> <%= link_to appointment.date_and_time.strftime("%m-%d-%Y"), appointment %> </h2>
+      <h4> <%= appointment.location %> </h3>
+      <h5>  <%= appointment.notes %> </h5>
+      <h5>  Created On: <%= appointment.created_at.strftime("%m-%d-%Y") %> <br /> </h5>
+      
+    </div>
+  </li>
+  <% end %>
+
+<h2>New Appointment</h2>
+
+<%= form_for @appointment do |f| %>
+  <%= f.label :date_and_time %>
+  <%= f.text_field :date_and_time %> <br/>
+
+  <%= f.label :location %>
+  <%= f.text_field :location %> <br/>
+
+  <%= f.label :notes %>
+  <%= f.text_field :notes %> <br/>
+
+  <%= f.hidden_field :fruit_id, :value => Fruit.find(params[:id]).id %>
+
+  <%= f.submit %>
+<% end %>
+
+</ul>

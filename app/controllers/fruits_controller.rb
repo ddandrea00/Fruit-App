@@ -1,21 +1,23 @@
 class FruitsController < ApplicationController
   def index
-        @fruits = Fruit.all
+        @fruits = current_user.fruits.all
       end
 
         def new
-          @fruit = Fruit.new
+          @fruit = current_user.fruits.new
         end
 
 
         def create
-          @fruit = Fruit.create!(fruit_params.merge(user: current_user))
+          @fruit = current_user.fruits.create!(fruit_params)
           redirect_to fruits_path(@fruit)
         end
 
 
         def show
           @fruit = Fruit.find(params[:id])
+          @appointments = current_user.appointments.all
+          @appointment = current_user.appointments.new
         end
 
 
