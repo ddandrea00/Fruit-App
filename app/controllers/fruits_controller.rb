@@ -1,7 +1,7 @@
 class FruitsController < ApplicationController
-  def index
+       def index
         @fruits = current_user.fruits.all
-      end
+        end
 
         def new
           @fruit = current_user.fruits.new

@@ -9,26 +9,30 @@
 <h4> Location: <%= @fruit.location %> </h4>
 <h4> Description: <%= @fruit.description %> </h4>
 
-<h2> 0 Appointments </h2>
-<%= link_to "(+)  Add Appointment", new_appointment_path %>
-<ul class = "appointments">
   <% @appointments.each do |appointment| %>
   <li>
+    <a href="/appointments/<%= appointment.id %>">
     <div id="appointment">
-      <h4> <%= link_to appointment.date_and_time.strftime("%m-%d-%Y"), appointment %> </h2>
+      <h4> <%= appointment.date_and_time.strftime("%m-%d-%Y") %> </h2>
       <h4> <%= appointment.location %> </h3>
       <h5>  <%= appointment.notes %> </h5>
       <h5>  Created On: <%= appointment.created_at.strftime("%m-%d-%Y") %> <br /> </h5>
-      
     </div>
+    </a>
   </li>
   <% end %>
 
 <h2>New Appointment</h2>
-
+       <div class="apt-button"> 
+        <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-plus-sign"></span> New Appointment
+        </button> 
+      </div>
+      <br>
+<div class="appointment">
 <%= form_for @appointment do |f| %>
   <%= f.label :date_and_time %>
-  <%= f.text_field :date_and_time %> <br/>
+  <%= f.date_field :date_and_time %> <br/>
 
   <%= f.label :location %>
   <%= f.text_field :location %> <br/>
@@ -40,5 +44,17 @@
 
   <%= f.submit %>
 <% end %>
+</div>
 
 </ul>
+
+<script>
+// Function for hiding and showing the create apppointment form.
+
+$(document).ready(function() {
+  $('.appointment').hide();
+  $('.apt-button').on("click", function() {
+    $('.appointment').toggle("blind", 300);
+    });
+});
+</script>
