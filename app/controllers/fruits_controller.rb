@@ -7,7 +7,6 @@ class FruitsController < ApplicationController
           @fruit = current_user.fruits.new
         end
 
-
         def create
           @fruit = current_user.fruits.create!(fruit_params)
           redirect_to fruits_path(@fruit)
