@@ -33861,3 +33861,2729 @@ FOREIGN KEY ("user_id")
   [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
   [1m[36mFruit Load (1.4ms)[0m  [1m[34mSELECT "fruits".* FROM "fruits"[0m
   [1m[36mAppointment Load (0.8ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+Started GET "/" for 127.0.0.1 at 2017-11-02 16:55:16 -0400
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FruitsController#index as HTML
+Completed 401 Unauthorized in 13ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-02 16:55:17 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (389.1ms)
+Completed 200 OK in 546ms (Views: 491.9ms | ActiveRecord: 32.4ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2017-11-02 16:55:18 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-02 16:55:22 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 65ms (Views: 63.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-02 16:55:24 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 65ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-02 16:55:38 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 74ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_up" for 127.0.0.1 at 2017-11-02 16:55:39 -0400
+Processing by RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 79ms (Views: 78.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-02 16:55:40 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 90ms (Views: 88.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-02 17:00:02 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 61ms (Views: 59.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-02 17:04:20 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 63ms (Views: 61.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-02 17:08:09 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 72ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-02 17:08:33 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 105ms (Views: 104.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-02 17:08:59 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 65ms (Views: 63.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-02 17:10:20 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 55ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-02 17:11:02 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (934.6ms)
+Completed 200 OK in 3069ms (Views: 3066.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_up" for 127.0.0.1 at 2017-11-02 17:11:06 -0400
+Processing by RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 112ms (Views: 110.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-02 17:11:07 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (31.9ms)
+Completed 200 OK in 206ms (Views: 204.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_up" for 127.0.0.1 at 2017-11-02 17:11:08 -0400
+Processing by RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (3.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 160ms (Views: 156.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-02 17:11:09 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 111ms (Views: 109.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_up" for 127.0.0.1 at 2017-11-02 17:11:10 -0400
+Processing by RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 137ms (Views: 135.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_up" for 127.0.0.1 at 2017-11-02 17:11:15 -0400
+Processing by RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 119ms (Views: 118.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-02 17:11:17 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 104ms (Views: 102.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-02 17:11:54 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 72ms (Views: 70.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-02 17:17:26 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 82ms (Views: 79.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-02 17:17:35 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 84ms (Views: 83.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-02 17:18:18 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (428.6ms)
+Completed 200 OK in 2387ms (Views: 2385.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-02 17:18:45 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (396.2ms)
+Completed 200 OK in 2555ms (Views: 2553.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-02 17:18:49 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 96ms (Views: 95.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-02 17:18:57 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 79ms (Views: 77.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-02 17:19:31 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 70ms (Views: 69.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-02 17:27:19 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 75ms (Views: 74.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-02 17:28:31 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (391.8ms)
+Completed 200 OK in 2393ms (Views: 2391.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-02 17:29:51 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 77ms (Views: 76.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/d/users/sign_in" for 127.0.0.1 at 2017-11-02 17:30:09 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UZbV8s8+nCx5FTqAD3wdaMxW8UWhRJce68BeaBo/dTbgNKkd2mWcYZmk7NGisxJ0SL4eN3CZy73yjz8xFfHOqQ==", "user"=>{"email"=>"d.dandrea00@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  [1m[36mUser Load (19.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "d.dandrea00@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 24ms (ActiveRecord: 19.6ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UZbV8s8+nCx5FTqAD3wdaMxW8UWhRJce68BeaBo/dTbgNKkd2mWcYZmk7NGisxJ0SL4eN3CZy73yjz8xFfHOqQ==", "user"=>{"email"=>"d.dandrea00@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 191ms (Views: 63.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/d/users/sign_in" for 127.0.0.1 at 2017-11-02 17:30:14 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5ZopNO/sq8xvjEK7xSSIp7SMPVS0PWk18fTuHECchBZUOFXb+rergY89lOpo64e7MGTSJmXgNZbou49FT1I/iQ==", "user"=>{"email"=>"d.dandrea00@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "d.dandrea00@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.4ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5ZopNO/sq8xvjEK7xSSIp7SMPVS0PWk18fTuHECchBZUOFXb+rergY89lOpo64e7MGTSJmXgNZbou49FT1I/iQ==", "user"=>{"email"=>"d.dandrea00@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 178ms (Views: 60.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_up" for 127.0.0.1 at 2017-11-02 17:30:16 -0400
+Processing by RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 92ms (Views: 90.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/d/users" for 127.0.0.1 at 2017-11-02 17:30:30 -0400
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"j7kRUDBOk73Zn5z3bl5LCecFfqaF06DeHq3gWMUuwXHNV1Q2tT83Cf0DE3+PN+oQ1nEBvpM6aUD7MIL536fExw==", "user"=>{"name"=>"Drew", "email"=>"d.dandrea00@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "d.dandrea00@gmail.com"], ["LIMIT", 1]]
+  [1m[35mSQL (19.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Drew"], ["email", "d.dandrea00@gmail.com"], ["encrypted_password", "$2a$11$j4htBtILO6XtIvegLTIc5OZzhEha88UMDSZrRiCZBJPYQ6MRd1m8u"], ["created_at", "2017-11-02 21:30:30.925414"], ["updated_at", "2017-11-02 21:30:30.925414"]]
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (2.5ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "last_sign_in_at" = $3, "current_sign_in_ip" = $4, "last_sign_in_ip" = $5, "updated_at" = $6 WHERE "users"."id" = $7[0m  [["sign_in_count", 1], ["current_sign_in_at", "2017-11-02 21:30:30.952545"], ["last_sign_in_at", "2017-11-02 21:30:30.952545"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_ip", "127.0.0.1/32"], ["updated_at", "2017-11-02 21:30:30.953445"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 171ms (ActiveRecord: 28.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-02 17:30:30 -0400
+Processing by FruitsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/index.html.erb within layouts/application
+  [1m[36mFruit Load (9.4ms)[0m  [1m[34mSELECT "fruits".* FROM "fruits" WHERE "fruits"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered fruits/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 101ms (Views: 67.2ms | ActiveRecord: 11.8ms)
+
+
+Started GET "/appointments.1" for 127.0.0.1 at 2017-11-02 17:30:34 -0400
+Processing by AppointmentsController#index as 
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (14.6ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered appointments/index.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 113ms (Views: 78.7ms | ActiveRecord: 17.0ms)
+
+
+Started GET "/fruits.1" for 127.0.0.1 at 2017-11-02 17:30:35 -0400
+Processing by FruitsController#index as 
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/index.html.erb within layouts/application
+  [1m[36mFruit Load (0.5ms)[0m  [1m[34mSELECT "fruits".* FROM "fruits" WHERE "fruits"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered fruits/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 98ms (Views: 83.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/fruits.1" for 127.0.0.1 at 2017-11-02 17:30:36 -0400
+Processing by FruitsController#index as 
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/index.html.erb within layouts/application
+  [1m[36mFruit Load (0.4ms)[0m  [1m[34mSELECT "fruits".* FROM "fruits" WHERE "fruits"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered fruits/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 90ms (Views: 77.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/fruits/new" for 127.0.0.1 at 2017-11-02 17:30:40 -0400
+Processing by FruitsController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/new.html.erb within layouts/application
+  Rendered fruits/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 83ms (Views: 61.8ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/fruits/new" for 127.0.0.1 at 2017-11-02 17:40:01 -0400
+Processing by FruitsController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/new.html.erb within layouts/application
+  Rendered fruits/new.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 85ms (Views: 78.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/fruits/new" for 127.0.0.1 at 2017-11-02 17:43:31 -0400
+Processing by FruitsController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/new.html.erb within layouts/application
+  Rendered fruits/new.html.erb within layouts/application (428.8ms)
+Completed 200 OK in 2930ms (Views: 2924.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/fruits/new" for 127.0.0.1 at 2017-11-02 17:45:14 -0400
+Processing by FruitsController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/new.html.erb within layouts/application
+  Rendered fruits/new.html.erb within layouts/application (443.4ms)
+Completed 200 OK in 2679ms (Views: 2668.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/fruits/new" for 127.0.0.1 at 2017-11-02 17:45:41 -0400
+Processing by FruitsController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/new.html.erb within layouts/application
+  Rendered fruits/new.html.erb within layouts/application (492.2ms)
+Completed 200 OK in 2781ms (Views: 2751.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/fruits/new" for 127.0.0.1 at 2017-11-02 17:45:53 -0400
+Processing by FruitsController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/new.html.erb within layouts/application
+  Rendered fruits/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 93ms (Views: 88.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/fruits/new" for 127.0.0.1 at 2017-11-02 17:46:58 -0400
+Processing by FruitsController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/new.html.erb within layouts/application
+  Rendered fruits/new.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 98ms (Views: 92.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/fruits/new" for 127.0.0.1 at 2017-11-02 17:47:15 -0400
+Processing by FruitsController#new as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/new.html.erb within layouts/application
+  Rendered fruits/new.html.erb within layouts/application (432.4ms)
+Completed 200 OK in 2523ms (Views: 2515.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/fruits/new" for 127.0.0.1 at 2017-11-02 17:47:47 -0400
+Processing by FruitsController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/new.html.erb within layouts/application
+  Rendered fruits/new.html.erb within layouts/application (453.0ms)
+Completed 200 OK in 2664ms (Views: 2657.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/fruits/new" for 127.0.0.1 at 2017-11-02 17:48:26 -0400
+Processing by FruitsController#new as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/new.html.erb within layouts/application
+  Rendered fruits/new.html.erb within layouts/application (448.3ms)
+Completed 200 OK in 2692ms (Views: 2684.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/fruits.1" for 127.0.0.1 at 2017-11-02 17:48:37 -0400
+Processing by FruitsController#index as 
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/index.html.erb within layouts/application
+  [1m[36mFruit Load (1.1ms)[0m  [1m[34mSELECT "fruits".* FROM "fruits" WHERE "fruits"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered fruits/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 105ms (Views: 87.8ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/fruits/new" for 127.0.0.1 at 2017-11-02 17:48:39 -0400
+Processing by FruitsController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/new.html.erb within layouts/application
+  Rendered fruits/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 107ms (Views: 99.0ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/fruits" for 127.0.0.1 at 2017-11-02 17:52:15 -0400
+Processing by FruitsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7ZjeQDv0VTwNiNatWEF+Q8jItMXkUo4QLIKMtSaLReQ6K0P/CI/e06xuzWxGhbwAK2DMHQcGE+VHtkxMuQLSOA==", "fruit"=>{"name"=>"John Doe", "phone"=>"(215) 444-8362", "email"=>"john@test.com", "location"=>"Philadelphia, PA", "description"=>""}, "commit"=>"Add Fruit"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (3.7ms)[0m  [1m[32mINSERT INTO "fruits" ("name", "phone", "email", "location", "description", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["name", "John Doe"], ["phone", "(215) 444-8362"], ["email", "john@test.com"], ["location", "Philadelphia, PA"], ["description", ""], ["created_at", "2017-11-02 21:52:15.412088"], ["updated_at", "2017-11-02 21:52:15.412088"], ["user_id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/fruits.1
+Completed 302 Found in 12ms (ActiveRecord: 4.8ms)
+
+
+Started GET "/fruits.1" for 127.0.0.1 at 2017-11-02 17:52:15 -0400
+Processing by FruitsController#index as 
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/index.html.erb within layouts/application
+  [1m[36mFruit Load (0.4ms)[0m  [1m[34mSELECT "fruits".* FROM "fruits" WHERE "fruits"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered fruits/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 76ms (Views: 61.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/fruits/1" for 127.0.0.1 at 2017-11-02 17:53:27 -0400
+Processing by FruitsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mFruit Load (0.6ms)[0m  [1m[34mSELECT  "fruits".* FROM "fruits" WHERE "fruits"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/show.html.erb within layouts/application
+  [1m[36mAppointment Load (0.5ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mCACHE Fruit Load (0.0ms)[0m  [1m[34mSELECT  "fruits".* FROM "fruits" WHERE "fruits"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered fruits/show.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 82ms (Views: 60.5ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/fruits/1" for 127.0.0.1 at 2017-11-02 18:02:29 -0400
+Processing by FruitsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (2.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mFruit Load (0.4ms)[0m  [1m[34mSELECT  "fruits".* FROM "fruits" WHERE "fruits"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/show.html.erb within layouts/application
+  [1m[36mAppointment Load (0.5ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mCACHE Fruit Load (0.0ms)[0m  [1m[34mSELECT  "fruits".* FROM "fruits" WHERE "fruits"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered fruits/show.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 78ms (Views: 66.7ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/fruits/1" for 127.0.0.1 at 2017-11-02 18:03:00 -0400
+Processing by FruitsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mFruit Load (1.1ms)[0m  [1m[34mSELECT  "fruits".* FROM "fruits" WHERE "fruits"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/show.html.erb within layouts/application
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mCACHE Fruit Load (0.0ms)[0m  [1m[34mSELECT  "fruits".* FROM "fruits" WHERE "fruits"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered fruits/show.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 2531ms (Views: 2522.1ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/fruits/1" for 127.0.0.1 at 2017-11-02 18:04:53 -0400
+Processing by FruitsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mFruit Load (1.4ms)[0m  [1m[34mSELECT  "fruits".* FROM "fruits" WHERE "fruits"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/show.html.erb within layouts/application
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mCACHE Fruit Load (0.0ms)[0m  [1m[34mSELECT  "fruits".* FROM "fruits" WHERE "fruits"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered fruits/show.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 138ms (Views: 120.4ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/fruits/1" for 127.0.0.1 at 2017-11-02 18:07:52 -0400
+Processing by FruitsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mFruit Load (0.3ms)[0m  [1m[34mSELECT  "fruits".* FROM "fruits" WHERE "fruits"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/show.html.erb within layouts/application
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mCACHE Fruit Load (0.0ms)[0m  [1m[34mSELECT  "fruits".* FROM "fruits" WHERE "fruits"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered fruits/show.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 63ms (Views: 57.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-11-02 18:08:21 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 73ms (Views: 65.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-11-02 18:08:31 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 71ms (Views: 67.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/fruits.1" for 127.0.0.1 at 2017-11-02 18:08:35 -0400
+Processing by FruitsController#index as 
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/index.html.erb within layouts/application
+  [1m[36mFruit Load (0.4ms)[0m  [1m[34mSELECT "fruits".* FROM "fruits" WHERE "fruits"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered fruits/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 92ms (Views: 77.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/appointments.1" for 127.0.0.1 at 2017-11-02 18:08:36 -0400
+Processing by AppointmentsController#index as 
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered appointments/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 99ms (Views: 84.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/appointments.1" for 127.0.0.1 at 2017-11-02 18:08:58 -0400
+Processing by AppointmentsController#index as 
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (0.5ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered appointments/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 115ms (Views: 100.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/appointments.1?q=" for 127.0.0.1 at 2017-11-02 18:09:01 -0400
+Processing by AppointmentsController#index as 
+  Parameters: {"q"=>""}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (0.9ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered appointments/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 113ms (Views: 97.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/appointments.1?q=" for 127.0.0.1 at 2017-11-02 18:09:51 -0400
+Processing by AppointmentsController#index as 
+  Parameters: {"q"=>""}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (1.7ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered appointments/index.html.erb within layouts/application (421.1ms)
+Completed 200 OK in 2550ms (Views: 2531.9ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/appointments.1?q=" for 127.0.0.1 at 2017-11-02 18:10:02 -0400
+Processing by AppointmentsController#index as 
+  Parameters: {"q"=>""}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (0.5ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered appointments/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 115ms (Views: 100.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-03 13:06:21 -0400
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FruitsController#index as HTML
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/index.html.erb within layouts/application
+  [1m[36mFruit Load (1.2ms)[0m  [1m[34mSELECT "fruits".* FROM "fruits" WHERE "fruits"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered fruits/index.html.erb within layouts/application (390.8ms)
+Completed 200 OK in 604ms (Views: 497.1ms | ActiveRecord: 33.0ms)
+
+
+Started GET "/fruits/1" for 127.0.0.1 at 2017-11-03 13:06:33 -0400
+Processing by FruitsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mFruit Load (0.3ms)[0m  [1m[34mSELECT  "fruits".* FROM "fruits" WHERE "fruits"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/show.html.erb within layouts/application
+  [1m[36mAppointment Load (0.7ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mCACHE Fruit Load (0.0ms)[0m  [1m[34mSELECT  "fruits".* FROM "fruits" WHERE "fruits"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered fruits/show.html.erb within layouts/application (25.1ms)
+Completed 200 OK in 124ms (Views: 96.9ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-03 13:25:48 -0400
+  [1m[35m (7.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FruitsController#index as HTML
+  [1m[36mUser Load (2.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/index.html.erb within layouts/application
+  [1m[36mFruit Load (1.4ms)[0m  [1m[34mSELECT "fruits".* FROM "fruits" WHERE "fruits"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered fruits/index.html.erb within layouts/application (357.3ms)
+Completed 200 OK in 566ms (Views: 494.8ms | ActiveRecord: 18.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-13 13:32:46 -0500
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FruitsController#index as HTML
+Completed 401 Unauthorized in 12ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-13 13:32:46 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (340.7ms)
+Completed 200 OK in 554ms (Views: 505.1ms | ActiveRecord: 25.3ms)
+
+
+Started POST "/d/users/sign_in" for 127.0.0.1 at 2017-11-13 13:38:34 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"39vordPp8RKA25O992AeKhaiwlc3UH4JyB2rRylx3nmV0Dgu4vR7NlxgBqRtuAs0yXkb9hkoh/bvRT94CaiREw==", "user"=>{"email"=>"d.dandrea00@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  [1m[36mUser Load (7.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "d.dandrea00@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (2.7ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = $1, "sign_in_count" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["current_sign_in_at", "2017-11-13 18:38:34.145677"], ["sign_in_count", 2], ["updated_at", "2017-11-13 18:38:34.147132"], ["id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 161ms (ActiveRecord: 11.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-13 13:38:34 -0500
+Processing by FruitsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/index.html.erb within layouts/application
+  [1m[36mFruit Load (6.7ms)[0m  [1m[34mSELECT "fruits".* FROM "fruits" WHERE "fruits"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered fruits/index.html.erb within layouts/application (31.6ms)
+Completed 200 OK in 127ms (Views: 88.8ms | ActiveRecord: 13.3ms)
+
+
+Started GET "/fruits/1" for 127.0.0.1 at 2017-11-13 13:38:38 -0500
+Processing by FruitsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (2.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mFruit Load (0.4ms)[0m  [1m[34mSELECT  "fruits".* FROM "fruits" WHERE "fruits"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/show.html.erb within layouts/application
+  [1m[36mAppointment Load (1.0ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mCACHE Fruit Load (0.0ms)[0m  [1m[34mSELECT  "fruits".* FROM "fruits" WHERE "fruits"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered fruits/show.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 114ms (Views: 81.0ms | ActiveRecord: 10.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-13 15:40:14 -0500
+Processing by FruitsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/index.html.erb within layouts/application
+  [1m[36mFruit Load (0.5ms)[0m  [1m[34mSELECT "fruits".* FROM "fruits" WHERE "fruits"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered fruits/index.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 132ms (Views: 69.1ms | ActiveRecord: 17.5ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-11-13 16:18:12 -0500
+  
+SyntaxError (/Users/drewdandrea/wdi/projects/Fruit-App/app/models/user.rb:2: syntax error, unexpected ':', expecting keyword_end
+  attr_accessible: :image
+                  ^):
+  
+app/models/user.rb:2: syntax error, unexpected ':', expecting keyword_end
+config/routes.rb:4:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/fruits/1" for 127.0.0.1 at 2017-11-13 16:18:21 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/fruits/1"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/fruits/1" for 127.0.0.1 at 2017-11-13 16:18:32 -0500
+  
+NameError (uninitialized constant User::ImageUploader):
+  
+app/models/user.rb:4:in `<class:User>'
+app/models/user.rb:1:in `<top (required)>'
+config/routes.rb:4:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/fruits/1" for 127.0.0.1 at 2017-11-13 16:19:42 -0500
+  
+NoMethodError (undefined method `attr_accessible' for #<Class:0x007f99bfbdf500>
+Did you mean?  attr_accessor):
+  
+app/models/user.rb:2:in `<class:User>'
+app/models/user.rb:1:in `<top (required)>'
+config/routes.rb:4:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/fruits/1" for 127.0.0.1 at 2017-11-13 16:20:33 -0500
+  
+NameError (uninitialized constant User::ImageUploader):
+  
+app/models/user.rb:5:in `<class:User>'
+app/models/user.rb:1:in `<top (required)>'
+config/routes.rb:4:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/fruits/1" for 127.0.0.1 at 2017-11-13 16:23:36 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/fruits/1"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/fruits/1" for 127.0.0.1 at 2017-11-13 16:23:40 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/fruits/1"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-11-13 16:23:43 -0500
+Processing by FruitsController#index as HTML
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant User::ImageUploader):
+  
+app/models/user.rb:5:in `<class:User>'
+app/models/user.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2017-11-13 16:23:46 -0500
+Processing by FruitsController#index as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant User::ImageUploader):
+  
+app/models/user.rb:5:in `<class:User>'
+app/models/user.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2017-11-13 16:23:52 -0500
+Processing by FruitsController#index as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant User::ImageUploader):
+  
+app/models/user.rb:5:in `<class:User>'
+app/models/user.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2017-11-13 16:24:02 -0500
+Processing by FruitsController#index as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant User::ImageUploader):
+  
+app/models/user.rb:5:in `<class:User>'
+app/models/user.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2017-11-13 16:25:27 -0500
+Processing by FruitsController#index as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant User::ImageUploader):
+  
+app/models/user.rb:5:in `<class:User>'
+app/models/user.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2017-11-13 16:25:58 -0500
+Processing by FruitsController#index as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant User::ImageUploader):
+  
+app/models/user.rb:5:in `<class:User>'
+app/models/user.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2017-11-13 16:27:36 -0500
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FruitsController#index as HTML
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/index.html.erb within layouts/application
+  [1m[36mFruit Load (0.6ms)[0m  [1m[34mSELECT "fruits".* FROM "fruits" WHERE "fruits"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered fruits/index.html.erb within layouts/application (252.0ms)
+Completed 200 OK in 395ms (Views: 322.7ms | ActiveRecord: 11.9ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-11-13 16:27:40 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 72ms (Views: 58.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/d/users/edit.1" for 127.0.0.1 at 2017-11-13 16:27:41 -0500
+Processing by RegistrationsController#edit as 
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (37.6ms)
+Completed 200 OK in 132ms (Views: 129.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/d/users/edit.1" for 127.0.0.1 at 2017-11-13 16:30:13 -0500
+Processing by RegistrationsController#edit as 
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 84ms (Views: 81.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/d/users/edit.1" for 127.0.0.1 at 2017-11-13 16:30:34 -0500
+Processing by RegistrationsController#edit as 
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 107ms (Views: 103.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/d/users/edit.1" for 127.0.0.1 at 2017-11-13 16:31:24 -0500
+Processing by RegistrationsController#edit as 
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 107ms (Views: 104.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/d/users/edit.1" for 127.0.0.1 at 2017-11-13 16:31:39 -0500
+Processing by RegistrationsController#edit as 
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 106ms (Views: 101.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/d/users/edit.1" for 127.0.0.1 at 2017-11-13 16:31:47 -0500
+Processing by RegistrationsController#edit as 
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 95ms (Views: 92.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/d/users/edit.1" for 127.0.0.1 at 2017-11-13 16:35:54 -0500
+Processing by RegistrationsController#edit as 
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 130ms (ActiveRecord: 0.9ms)
+
+
+  
+SyntaxError (/Users/drewdandrea/wdi/projects/Fruit-App/app/views/devise/registrations/edit.html.erb:7: syntax error, unexpected =>, expecting keyword_end
+d=( form_for @user do :html => { mulitpart => true } |f| );@
+                              ^
+/Users/drewdandrea/wdi/projects/Fruit-App/app/views/devise/registrations/edit.html.erb:7: syntax error, unexpected ')'
+=> { mulitpart => true } |f| );@output_buffer.safe_append='
+                              ^
+/Users/drewdandrea/wdi/projects/Fruit-App/app/views/devise/registrations/edit.html.erb:12: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;   end 
+               ^
+/Users/drewdandrea/wdi/projects/Fruit-App/app/views/devise/registrations/edit.html.erb:56: syntax error, unexpected keyword_end, expecting ')'
+'.freeze; end 
+             ^
+/Users/drewdandrea/wdi/projects/Fruit-App/app/views/devise/registrations/edit.html.erb:65: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/Users/drewdandrea/wdi/projects/Fruit-App/app/views/devise/registrations/edit.html.erb:67: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/devise/registrations/edit.html.erb:7: syntax error, unexpected =>, expecting keyword_end
+app/views/devise/registrations/edit.html.erb:7: syntax error, unexpected ')'
+app/views/devise/registrations/edit.html.erb:12: syntax error, unexpected keyword_end, expecting ')'
+app/views/devise/registrations/edit.html.erb:56: syntax error, unexpected keyword_end, expecting ')'
+app/views/devise/registrations/edit.html.erb:65: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/devise/registrations/edit.html.erb:67: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/d/users/edit.1" for 127.0.0.1 at 2017-11-13 16:36:12 -0500
+Processing by RegistrationsController#edit as 
+  [1m[36mUser Load (3.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 192ms (ActiveRecord: 3.6ms)
+
+
+  
+SyntaxError (/Users/drewdandrea/wdi/projects/Fruit-App/app/views/devise/registrations/edit.html.erb:7: syntax error, unexpected =>, expecting keyword_end
+d=( form_for @user do :html => { multipart => true } |f| );@
+                              ^
+/Users/drewdandrea/wdi/projects/Fruit-App/app/views/devise/registrations/edit.html.erb:7: syntax error, unexpected ')'
+=> { multipart => true } |f| );@output_buffer.safe_append='
+                              ^
+/Users/drewdandrea/wdi/projects/Fruit-App/app/views/devise/registrations/edit.html.erb:12: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;   end 
+               ^
+/Users/drewdandrea/wdi/projects/Fruit-App/app/views/devise/registrations/edit.html.erb:56: syntax error, unexpected keyword_end, expecting ')'
+'.freeze; end 
+             ^
+/Users/drewdandrea/wdi/projects/Fruit-App/app/views/devise/registrations/edit.html.erb:65: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/Users/drewdandrea/wdi/projects/Fruit-App/app/views/devise/registrations/edit.html.erb:67: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/devise/registrations/edit.html.erb:7: syntax error, unexpected =>, expecting keyword_end
+app/views/devise/registrations/edit.html.erb:7: syntax error, unexpected ')'
+app/views/devise/registrations/edit.html.erb:12: syntax error, unexpected keyword_end, expecting ')'
+app/views/devise/registrations/edit.html.erb:56: syntax error, unexpected keyword_end, expecting ')'
+app/views/devise/registrations/edit.html.erb:65: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/devise/registrations/edit.html.erb:67: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/d/users/edit.1" for 127.0.0.1 at 2017-11-13 16:36:57 -0500
+Processing by RegistrationsController#edit as 
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 111ms (ActiveRecord: 1.6ms)
+
+
+  
+SyntaxError (/Users/drewdandrea/wdi/projects/Fruit-App/app/views/devise/registrations/edit.html.erb:7: syntax error, unexpected keyword_do_block
+er.append=( form_for @user, do :html => { multipart => true 
+                              ^
+/Users/drewdandrea/wdi/projects/Fruit-App/app/views/devise/registrations/edit.html.erb:7: syntax error, unexpected ')'
+=> { multipart => true } |f| );@output_buffer.safe_append='
+                              ^
+/Users/drewdandrea/wdi/projects/Fruit-App/app/views/devise/registrations/edit.html.erb:12: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;   end 
+               ^
+/Users/drewdandrea/wdi/projects/Fruit-App/app/views/devise/registrations/edit.html.erb:56: syntax error, unexpected keyword_end, expecting ')'
+'.freeze; end 
+             ^
+/Users/drewdandrea/wdi/projects/Fruit-App/app/views/devise/registrations/edit.html.erb:65: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/Users/drewdandrea/wdi/projects/Fruit-App/app/views/devise/registrations/edit.html.erb:67: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/devise/registrations/edit.html.erb:7: syntax error, unexpected keyword_do_block
+app/views/devise/registrations/edit.html.erb:7: syntax error, unexpected ')'
+app/views/devise/registrations/edit.html.erb:12: syntax error, unexpected keyword_end, expecting ')'
+app/views/devise/registrations/edit.html.erb:56: syntax error, unexpected keyword_end, expecting ')'
+app/views/devise/registrations/edit.html.erb:65: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/devise/registrations/edit.html.erb:67: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/d/users/edit.1" for 127.0.0.1 at 2017-11-13 16:37:33 -0500
+Processing by RegistrationsController#edit as 
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 134ms (ActiveRecord: 0.9ms)
+
+
+  
+SyntaxError (/Users/drewdandrea/wdi/projects/Fruit-App/app/views/devise/registrations/edit.html.erb:7: syntax error, unexpected keyword_do_block
+er.append=( form_for @user, do :html => {:multipart => true}
+                              ^
+/Users/drewdandrea/wdi/projects/Fruit-App/app/views/devise/registrations/edit.html.erb:7: syntax error, unexpected ')'
+ => {:multipart => true} |f| );@output_buffer.safe_append='
+                              ^
+/Users/drewdandrea/wdi/projects/Fruit-App/app/views/devise/registrations/edit.html.erb:12: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;   end 
+               ^
+/Users/drewdandrea/wdi/projects/Fruit-App/app/views/devise/registrations/edit.html.erb:56: syntax error, unexpected keyword_end, expecting ')'
+'.freeze; end 
+             ^
+/Users/drewdandrea/wdi/projects/Fruit-App/app/views/devise/registrations/edit.html.erb:65: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/Users/drewdandrea/wdi/projects/Fruit-App/app/views/devise/registrations/edit.html.erb:67: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/devise/registrations/edit.html.erb:7: syntax error, unexpected keyword_do_block
+app/views/devise/registrations/edit.html.erb:7: syntax error, unexpected ')'
+app/views/devise/registrations/edit.html.erb:12: syntax error, unexpected keyword_end, expecting ')'
+app/views/devise/registrations/edit.html.erb:56: syntax error, unexpected keyword_end, expecting ')'
+app/views/devise/registrations/edit.html.erb:65: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/devise/registrations/edit.html.erb:67: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/d/users/edit.1" for 127.0.0.1 at 2017-11-13 16:38:53 -0500
+Processing by RegistrationsController#edit as 
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (19.5ms)
+Completed 200 OK in 305ms (Views: 300.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/d/users/edit.1" for 127.0.0.1 at 2017-11-13 16:40:23 -0500
+Processing by RegistrationsController#edit as 
+  [1m[36mUser Load (2.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 236ms (Views: 226.5ms | ActiveRecord: 2.7ms)
+
+
+Started PUT "/d/users" for 127.0.0.1 at 2017-11-13 16:40:32 -0500
+Processing by RegistrationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hhvHxllKPTFcJi44ix9Tbi9YosoZE/gQsjn13DBUCLXVjDXLhLh3LuGTMwCXsyrqFDxW0dPSRT1SACySkf2SSA==", "user"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fcb14a3c960 @tempfile=#<Tempfile:/var/folders/hv/fgmx477n7x34dq41k7k410r40000gn/T/RackMultipart20171113-37177-poe3w0.jpeg>, @original_filename="drew.jpeg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[image]\"; filename=\"drew.jpeg\"\r\nContent-Type: image/jpeg\r\n">, "name"=>"Drew", "phone"=>"", "email"=>"d.dandrea00@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "current_password"=>"[FILTERED]"}, "commit"=>"Update"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: :image
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 546ms (Views: 176.4ms | ActiveRecord: 1.8ms)
+
+
+Started PUT "/d/users" for 127.0.0.1 at 2017-11-13 16:41:07 -0500
+Processing by RegistrationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tBDTzdLWVxNm9JJvyzDzwu2ELK5RRYaHl4cgaC0bXBbnhyHADyQdDNtBj1fXnIpG1uDYtZuEO6p3vvkmjLLG6w==", "user"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fcb1508bc80 @tempfile=#<Tempfile:/var/folders/hv/fgmx477n7x34dq41k7k410r40000gn/T/RackMultipart20171113-37177-g2ibvs.jpeg>, @original_filename="drew.jpeg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[image]\"; filename=\"drew.jpeg\"\r\nContent-Type: image/jpeg\r\n">, "name"=>"Drew", "phone"=>"", "email"=>"d.dandrea00@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "current_password"=>"[FILTERED]"}, "commit"=>"Update"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: :image
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 496ms (Views: 163.0ms | ActiveRecord: 1.6ms)
+
+
+Started PUT "/d/users" for 127.0.0.1 at 2017-11-13 16:41:33 -0500
+Processing by RegistrationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"J3XkQ8hycC43n3VD1yIqtg90nktA1r4Mth1xtXrllmN04hZOFYA6MYoqaHvLjlMyNBBqUIoXAyFWJKj720wMng==", "user"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fcb1568f1e0 @tempfile=#<Tempfile:/var/folders/hv/fgmx477n7x34dq41k7k410r40000gn/T/RackMultipart20171113-37177-1q60p1n.jpeg>, @original_filename="drew.jpeg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[image]\"; filename=\"drew.jpeg\"\r\nContent-Type: image/jpeg\r\n">, "name"=>"Drew", "phone"=>"", "email"=>"d.dandrea00@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "current_password"=>"[FILTERED]"}, "commit"=>"Update"}
+  [1m[36mUser Load (2.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: :image
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[33mUPDATE "users" SET "phone" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["phone", ""], ["updated_at", "2017-11-13 21:41:33.408572"], ["id", 1]]
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 356ms (ActiveRecord: 8.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-13 16:41:33 -0500
+Processing by FruitsController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/index.html.erb within layouts/application
+  [1m[36mFruit Load (2.9ms)[0m  [1m[34mSELECT "fruits".* FROM "fruits" WHERE "fruits"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered fruits/index.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 164ms (Views: 151.8ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-11-13 16:41:37 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (5.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (663.2ms)
+Completed 500 Internal Server Error in 718ms (ActiveRecord: 6.6ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `user' for #<#<Class:0x007fcb0ed21938>:0x007fcb0ed2bca8>
+Did you mean?  @user):
+    2: 
+    3: <h1><%= @user.name %></h1>
+    4: <div class="pic">
+    5:   <%= image_tag user.image_url.to_s %>
+    6: </div>
+    7: <h4>Phone: <%= @user.phone %></h4>
+    8: <h4>Email: <%= @user.email %></h4>
+  
+app/views/users/show.html.erb:5:in `_app_views_users_show_html_erb__3641001484505614214_70255100683240'
+Started GET "/users/1" for 127.0.0.1 at 2017-11-13 16:48:06 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (350.8ms)
+Completed 500 Internal Server Error in 360ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `users' for #<#<Class:0x007fcb0ed21938>:0x007fcb15628cd8>
+Did you mean?  @user):
+    2: 
+    3: <h1><%= @user.name %></h1>
+    4: <div class="pic">
+    5:   <%= image_tag users.image_url.to_s %>
+    6: </div>
+    7: <h4>Phone: <%= @user.phone %></h4>
+    8: <h4>Email: <%= @user.email %></h4>
+  
+app/views/users/show.html.erb:5:in `_app_views_users_show_html_erb__3641001484505614214_70255106935640'
+Started GET "/users/1" for 127.0.0.1 at 2017-11-13 16:48:22 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (264.7ms)
+Completed 500 Internal Server Error in 273ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `user' for #<#<Class:0x007fcb0ed21938>:0x007fcb1526fbc8>
+Did you mean?  @user):
+    2: 
+    3: <h1><%= @user.name %></h1>
+    4: <div class="pic">
+    5:   <%= image_tag user.image_url.to_s %>
+    6: </div>
+    7: <h4>Phone: <%= @user.phone %></h4>
+    8: <h4>Email: <%= @user.email %></h4>
+  
+app/views/users/show.html.erb:5:in `_app_views_users_show_html_erb__3641001484505614214_70255104991980'
+Started GET "/users/1" for 127.0.0.1 at 2017-11-13 16:49:28 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (288.5ms)
+Completed 500 Internal Server Error in 296ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `user' for #<#<Class:0x007fcb0ed21938>:0x007fcb156ab4a8>
+Did you mean?  @user):
+    2: 
+    3: <h1><%= @user.name %></h1>
+    4: <div class="pic">
+    5:   <%= image_tag user.image_url.to_s %>
+    6: </div>
+    7: <h4>Phone: <%= @user.phone %></h4>
+    8: <h4>Email: <%= @user.email %></h4>
+  
+app/views/users/show.html.erb:5:in `_app_views_users_show_html_erb__3641001484505614214_70255107310760'
+Started GET "/" for 127.0.0.1 at 2017-11-27 09:36:56 -0500
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FruitsController#index as HTML
+  [1m[36mUser Load (2.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/index.html.erb within layouts/application
+  [1m[36mFruit Load (1.5ms)[0m  [1m[34mSELECT "fruits".* FROM "fruits" WHERE "fruits"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered fruits/index.html.erb within layouts/application (327.0ms)
+Completed 200 OK in 594ms (Views: 488.7ms | ActiveRecord: 37.3ms)
+
+
+Started GET "/fruits/1" for 127.0.0.1 at 2017-11-27 09:37:22 -0500
+Processing by FruitsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (2.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mFruit Load (1.5ms)[0m  [1m[34mSELECT  "fruits".* FROM "fruits" WHERE "fruits"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/show.html.erb within layouts/application
+  [1m[36mAppointment Load (2.9ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mCACHE Fruit Load (0.0ms)[0m  [1m[34mSELECT  "fruits".* FROM "fruits" WHERE "fruits"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered fruits/show.html.erb within layouts/application (65.6ms)
+Completed 200 OK in 179ms (Views: 127.3ms | ActiveRecord: 13.6ms)
+
+
+Started GET "/fruits/1/edit" for 127.0.0.1 at 2017-11-27 09:37:25 -0500
+Processing by FruitsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mFruit Load (0.5ms)[0m  [1m[34mSELECT  "fruits".* FROM "fruits" WHERE "fruits"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/edit.html.erb within layouts/application
+  Rendered fruits/edit.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 77ms (Views: 67.6ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/fruits.1" for 127.0.0.1 at 2017-11-27 09:37:30 -0500
+Processing by FruitsController#index as 
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/index.html.erb within layouts/application
+  [1m[36mFruit Load (0.7ms)[0m  [1m[34mSELECT "fruits".* FROM "fruits" WHERE "fruits"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered fruits/index.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 99ms (Views: 84.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 09:37:32 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (311.5ms)
+Completed 500 Internal Server Error in 327ms (ActiveRecord: 1.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `user' for #<#<Class:0x007f9b86a71970>:0x007f9b86a69248>
+Did you mean?  @user):
+    2: 
+    3: <h1><%= @user.name %></h1>
+    4: <div class="pic">
+    5:   <%= image_tag user.image_url.to_s %>
+    6: </div>
+    7: <h4>Phone: <%= @user.phone %></h4>
+    8: <h4>Email: <%= @user.email %></h4>
+  
+app/views/users/show.html.erb:5:in `_app_views_users_show_html_erb___2266973757097174551_70152977880920'
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 09:38:45 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 99ms (Views: 91.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/d/users/edit.1" for 127.0.0.1 at 2017-11-27 09:39:03 -0500
+Processing by RegistrationsController#edit as 
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 120ms (Views: 117.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/d/users/edit.1" for 127.0.0.1 at 2017-11-27 09:41:13 -0500
+Processing by RegistrationsController#edit as 
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 2842ms (Views: 2839.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/d/users/edit.1" for 127.0.0.1 at 2017-11-27 09:41:32 -0500
+Processing by RegistrationsController#edit as 
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 2110ms (Views: 2104.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/fruits.1" for 127.0.0.1 at 2017-11-27 09:42:25 -0500
+Processing by FruitsController#index as 
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/index.html.erb within layouts/application
+  [1m[36mFruit Load (0.4ms)[0m  [1m[34mSELECT "fruits".* FROM "fruits" WHERE "fruits"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered fruits/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 87ms (Views: 72.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 09:42:33 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (3.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 91ms (Views: 81.4ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/d/users/edit.1" for 127.0.0.1 at 2017-11-27 09:42:40 -0500
+Processing by RegistrationsController#edit as 
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 121ms (Views: 117.0ms | ActiveRecord: 0.8ms)
+
+
+Started PUT "/d/users" for 127.0.0.1 at 2017-11-27 09:42:55 -0500
+Processing by RegistrationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WsfcJUIAqSL1GRwh2D9uGkgEf+r0Vk408wFrwEy6NmIJUC4on/LjPUisARnEkxeec2CL8T6X8xkTOLKO7ROsnw==", "user"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007f9b85c0d4b0 @tempfile=#<Tempfile:/var/folders/hv/fgmx477n7x34dq41k7k410r40000gn/T/RackMultipart20171127-81983-1gim515.JPG>, @original_filename="IMG_0161.JPG", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[image]\"; filename=\"IMG_0161.JPG\"\r\nContent-Type: image/jpeg\r\n">, "name"=>"Drew", "phone"=>"", "email"=>"d.dandrea00@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "current_password"=>"[FILTERED]"}, "commit"=>"Update"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: :image
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 217ms (Views: 68.5ms | ActiveRecord: 0.8ms)
+
+
+Started PUT "/d/users" for 127.0.0.1 at 2017-11-27 09:43:09 -0500
+Processing by RegistrationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1IVqhm+ExUMZI2GUBiliZHwLFpHMDxhsdwynbD050dyHEpiLsnaPXKSWfKwahRvgR2/iigbOpUGXNX4inJBLIQ==", "user"=>{"name"=>"Drew", "phone"=>"", "email"=>"d.dandrea00@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "current_password"=>"[FILTERED]"}, "commit"=>"Update"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (7.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 189ms (Views: 48.3ms | ActiveRecord: 8.3ms)
+
+
+Started PUT "/d/users" for 127.0.0.1 at 2017-11-27 09:43:22 -0500
+Processing by RegistrationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kx7K/oJyy6ekmteBfmo75szCxUfVHZ2A64OrUBlak6bAiTjzX4CBuBkvyrlixkJi96YxXB/cIK0LunIeuPMJWw==", "user"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007f9b8b417b10 @tempfile=#<Tempfile:/var/folders/hv/fgmx477n7x34dq41k7k410r40000gn/T/RackMultipart20171127-81983-1v4atds.JPG>, @original_filename="IMG_0161.JPG", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[image]\"; filename=\"IMG_0161.JPG\"\r\nContent-Type: image/jpeg\r\n">, "name"=>"Drew", "phone"=>"", "email"=>"d.dandrea00@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "current_password"=>"[FILTERED]"}, "commit"=>"Update"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: :image
+  [1m[35m (1.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 133ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-27 09:43:22 -0500
+Processing by FruitsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/index.html.erb within layouts/application
+  [1m[36mFruit Load (0.4ms)[0m  [1m[34mSELECT "fruits".* FROM "fruits" WHERE "fruits"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered fruits/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 62ms (Views: 58.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 09:43:26 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (3.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 73ms (Views: 64.3ms | ActiveRecord: 3.5ms)
+
+
+  [1m[35m (14.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2231788589370959220)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddPictureToUser (20171127152616)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (31.8ms)[0m  [1m[35mALTER TABLE "users" ADD "picture" character varying[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171127152616"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(2231788589370959220)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 10:41:17 -0500
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (706.7ms)
+Completed 500 Internal Server Error in 770ms (ActiveRecord: 7.9ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `user' for #<#<Class:0x007fd57d9e5368>:0x007fd57d9ec578>
+Did you mean?  @user):
+    2: 
+    3: <h1><%= @user.name %></h1>
+    4: <div class="pic">
+    5:   <%= image_tag user.picture.url if user.picture? %>
+    6: </div>
+    7: <h4>Phone: <%= @user.phone %></h4>
+    8: <h4>Email: <%= @user.email %></h4>
+  
+app/views/users/show.html.erb:5:in `_app_views_users_show_html_erb___1927780212417239111_70277456146600'
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 10:41:41 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (392.0ms)
+Completed 500 Internal Server Error in 409ms (ActiveRecord: 2.2ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `user' for #<#<Class:0x007fd57d9e5368>:0x007fd581ecbab8>
+Did you mean?  @user):
+    2: 
+    3: <h1><%= @user.name %></h1>
+    4: <div class="pic">
+    5:   <%= image_tag @user.picture.url if user.picture? %>
+    6: </div>
+    7: <h4>Phone: <%= @user.phone %></h4>
+    8: <h4>Email: <%= @user.email %></h4>
+  
+app/views/users/show.html.erb:5:in `_app_views_users_show_html_erb___1927780212417239111_70277487239800'
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 10:42:25 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (289.7ms)
+Completed 500 Internal Server Error in 324ms (ActiveRecord: 6.7ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `user' for #<#<Class:0x007fd58163fe58>:0x007fd58163d928>
+Did you mean?  @user):
+    2: 
+    3: <h1><%= @user.name %></h1>
+    4: <div class="pic">
+    5:   <%= image_tag user.picture.url if user.picture? %>
+    6: </div>
+    7: <h4>Phone: <%= @user.phone %></h4>
+    8: <h4>Email: <%= @user.email %></h4>
+  
+app/views/users/show.html.erb:5:in `_app_views_users_show_html_erb___1927780212417239111_70277487821760'
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 10:43:06 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (310.7ms)
+Completed 500 Internal Server Error in 325ms (ActiveRecord: 2.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `user' for #<#<Class:0x007fd58163fe58>:0x007fd58392b890>
+Did you mean?  @user):
+    2: 
+    3: <h1><%= @user.name %></h1>
+    4: <div class="pic">
+    5:   <%= image_tag @user.picture.url if user.picture? %>
+    6: </div>
+    7: <h4>Phone: <%= @user.phone %></h4>
+    8: <h4>Email: <%= @user.email %></h4>
+  
+app/views/users/show.html.erb:5:in `_app_views_users_show_html_erb___1927780212417239111_70277502566780'
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 10:43:17 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 164ms (Views: 154.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/d/users/edit.1" for 127.0.0.1 at 2017-11-27 10:43:23 -0500
+Processing by RegistrationsController#edit as 
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (20.3ms)
+Completed 200 OK in 122ms (Views: 119.5ms | ActiveRecord: 0.4ms)
+
+
+Started PUT "/d/users" for 127.0.0.1 at 2017-11-27 10:43:39 -0500
+Processing by RegistrationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"msuL/jI7J4s9zw98Z1IKDeudurHN4MshWB7oLGj8QbXJXHnz78ltlIB6EkR7/nOJ0PlOqgchdgy4JzFiyVXbSA==", "user"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fd57d1aa478 @tempfile=#<Tempfile:/var/folders/hv/fgmx477n7x34dq41k7k410r40000gn/T/RackMultipart20171127-85338-oh100e.jpg>, @original_filename="GA-PORTRAITS-Shoot-6-Drew-Dandrea-FINAL-v1.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[image]\"; filename=\"GA-PORTRAITS-Shoot-6-Drew-Dandrea-FINAL-v1.jpg\"\r\nContent-Type: image/jpeg\r\n">, "name"=>"Drew", "phone"=>"", "email"=>"d.dandrea00@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "current_password"=>"[FILTERED]"}, "commit"=>"Update"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: :image
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 150ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:43:39 -0500
+Processing by FruitsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/index.html.erb within layouts/application
+  [1m[36mFruit Load (1.0ms)[0m  [1m[34mSELECT "fruits".* FROM "fruits" WHERE "fruits"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered fruits/index.html.erb within layouts/application (30.9ms)
+Completed 200 OK in 126ms (Views: 90.8ms | ActiveRecord: 7.3ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 10:43:41 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (3.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 75ms (Views: 67.2ms | ActiveRecord: 3.9ms)
+
+
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (193.0ms)[0m  [1m[35mDROP DATABASE IF EXISTS "FruitApp_development"[0m
+  [1m[35m (196.9ms)[0m  [1m[35mDROP DATABASE IF EXISTS "FruitApp_test"[0m
+  [1m[35m (475.2ms)[0m  [1m[35mCREATE DATABASE "FruitApp_development" ENCODING = 'unicode'[0m
+  [1m[35m (388.9ms)[0m  [1m[35mCREATE DATABASE "FruitApp_test" ENCODING = 'unicode'[0m
+  [1m[35m (5.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (2.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2231788589370959220)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateFruits (20170915151452)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (6.2ms)[0m  [1m[35mCREATE TABLE "fruits" ("id" bigserial primary key, "name" character varying, "phone" character varying, "email" character varying, "location" character varying, "description" character varying, "img_url" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170915151452"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to DeviseCreateUsers (20170918134737)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (4.1ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "name" character varying DEFAULT '' NOT NULL, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "phone" character varying, "image_url" character varying, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" inet, "last_sign_in_ip" inet, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (1.9ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170918134737"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddUserToFruits (20170918152932)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "fruits" ADD "user_id" bigint[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE  INDEX  "index_fruits_on_user_id" ON "fruits"  ("user_id")[0m
+  [1m[35m (3.3ms)[0m  [1m[35mALTER TABLE "fruits" ADD CONSTRAINT "fk_rails_1801fcf1da"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170918152932"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateAppointments (20171013175354)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (5.5ms)[0m  [1m[35mCREATE TABLE "appointments" ("id" bigserial primary key, "date_and_time" timestamp NOT NULL, "location" character varying NOT NULL, "notes" character varying, "user_id" bigint NOT NULL, "fruit_id" bigint NOT NULL, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, CONSTRAINT "fk_rails_9e31213785"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+, CONSTRAINT "fk_rails_d22950fb90"
+FOREIGN KEY ("fruit_id")
+  REFERENCES "fruits" ("id")
+)[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE  INDEX  "index_appointments_on_user_id" ON "appointments"  ("user_id")[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE  INDEX  "index_appointments_on_fruit_id" ON "appointments"  ("fruit_id")[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171013175354"]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddPictureToUser (20171127152616)
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.1ms)[0m  [1m[35mALTER TABLE "users" ADD "picture" character varying[0m
+  [1m[35mSQL (1.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171127152616"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-11-27 15:47:12.591527"], ["updated_at", "2017-11-27 15:47:12.591527"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(2231788589370959220)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 10:47:30 -0500
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (2.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Completed 401 Unauthorized in 40ms (ActiveRecord: 8.4ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-27 10:47:30 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (242.3ms)
+Completed 200 OK in 374ms (Views: 356.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_up" for 127.0.0.1 at 2017-11-27 10:47:38 -0500
+Processing by RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (3.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 112ms (Views: 111.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/d/users" for 127.0.0.1 at 2017-11-27 10:48:07 -0500
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dOwDN02c3aP+X3WycWJ7bqCh5Dmn7U9Maik24dhfKul+VpNTIFFUsgye5OLFB8QHT+xG7NkM1hfO84Sgtv5wSA==", "user"=>{"name"=>"Drew Dandrea", "email"=>"d.dandrea00@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "d.dandrea00@gmail.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Drew Dandrea"], ["email", "d.dandrea00@gmail.com"], ["encrypted_password", "$2a$11$4l8auU5nEiHbJYniAfLgs.JZXW4jHWsiF.fzDR0NbI5hQZ885IwNi"], ["created_at", "2017-11-27 15:48:07.653967"], ["updated_at", "2017-11-27 15:48:07.653967"]]
+  [1m[35m (5.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "last_sign_in_at" = $3, "current_sign_in_ip" = $4, "last_sign_in_ip" = $5, "updated_at" = $6 WHERE "users"."id" = $7[0m  [["sign_in_count", 1], ["current_sign_in_at", "2017-11-27 15:48:07.663019"], ["last_sign_in_at", "2017-11-27 15:48:07.663019"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_ip", "127.0.0.1/32"], ["updated_at", "2017-11-27 15:48:07.663882"], ["id", 1]]
+  [1m[35m (6.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 168ms (ActiveRecord: 14.4ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 10:48:07 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 106ms (Views: 90.5ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/d/users/edit.1" for 127.0.0.1 at 2017-11-27 10:48:11 -0500
+Processing by RegistrationsController#edit as 
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 145ms (Views: 142.1ms | ActiveRecord: 0.7ms)
+
+
+Started PUT "/d/users" for 127.0.0.1 at 2017-11-27 10:48:26 -0500
+Processing by RegistrationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GYShs9XWQabU0FvVsmZZ6XlTP5Chtsju5FSFouTBvEFKE1O+CCQLuWllRu2uyiBtQjfLi2t3dcMEbVzsRWgmvA==", "user"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fca8124a498 @tempfile=#<Tempfile:/var/folders/hv/fgmx477n7x34dq41k7k410r40000gn/T/RackMultipart20171127-85601-1btft6e.jpg>, @original_filename="GA-PORTRAITS-Shoot-6-Drew-Dandrea-FINAL-v1.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[image]\"; filename=\"GA-PORTRAITS-Shoot-6-Drew-Dandrea-FINAL-v1.jpg\"\r\nContent-Type: image/jpeg\r\n">, "name"=>"Drew Dandrea", "phone"=>"", "email"=>"d.dandrea00@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "current_password"=>"[FILTERED]"}, "commit"=>"Update"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: :image
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "phone" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["phone", ""], ["updated_at", "2017-11-27 15:48:26.361168"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 139ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:48:26 -0500
+Processing by FruitsController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/index.html.erb within layouts/application
+  [1m[36mFruit Load (0.6ms)[0m  [1m[34mSELECT "fruits".* FROM "fruits" WHERE "fruits"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered fruits/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 112ms (Views: 75.7ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 10:48:29 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 76ms (Views: 71.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 10:48:55 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (3.5ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 1.1ms)
+
+
+  
+ActionView::Template::Error (nil is not a valid asset source):
+    2: 
+    3: <h1><%= @user.name %></h1>
+    4: <div class="pic">
+    5:   <%= image_tag @user.picture.url %>
+    6: </div>
+    7: <h4>Phone: <%= @user.phone %></h4>
+    8: <h4>Email: <%= @user.email %></h4>
+  
+app/views/users/show.html.erb:5:in `_app_views_users_show_html_erb__4539550304755359215_70253809773320'
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 10:49:49 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 59ms (Views: 54.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 10:50:33 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (5.7ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 2.7ms)
+
+
+  
+ActionView::Template::Error (nil is not a valid asset source):
+    2: 
+    3: <h1><%= @user.name %></h1>
+    4: <div class="pic">
+    5:   <%= image_tag @user.picture.url %>
+    6: </div>
+    7: <h4>Phone: <%= @user.phone %></h4>
+    8: <h4>Email: <%= @user.email %></h4>
+  
+app/views/users/show.html.erb:5:in `_app_views_users_show_html_erb__4539550304755359215_70253809627760'
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 10:55:07 -0500
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (213.5ms)
+Completed 200 OK in 369ms (Views: 314.9ms | ActiveRecord: 14.8ms)
+
+
+Started GET "/d/users/edit.1" for 127.0.0.1 at 2017-11-27 10:55:16 -0500
+Processing by RegistrationsController#edit as 
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (22.5ms)
+Completed 200 OK in 139ms (Views: 136.1ms | ActiveRecord: 0.4ms)
+
+
+Started PUT "/d/users" for 127.0.0.1 at 2017-11-27 10:56:13 -0500
+Processing by RegistrationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YbplVPrD8kcL03YmG4NQF7JIu2KHAakSdNhhC+UEAuwyLZdZJzG4WLZmax4HLymTiSxPeU3AFD+U4bhFRK2YEQ==", "user"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fe77f9b3408 @tempfile=#<Tempfile:/var/folders/hv/fgmx477n7x34dq41k7k410r40000gn/T/RackMultipart20171127-85835-ij6mpq.jpg>, @original_filename="GA-PORTRAITS-Shoot-6-Drew-Dandrea-FINAL-v1.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[image]\"; filename=\"GA-PORTRAITS-Shoot-6-Drew-Dandrea-FINAL-v1.jpg\"\r\nContent-Type: image/jpeg\r\n">, "name"=>"Drew Dandrea", "phone"=>"", "email"=>"d.dandrea00@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "current_password"=>"[FILTERED]"}, "commit"=>"Update"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: :image
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 156ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:56:13 -0500
+Processing by FruitsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/index.html.erb within layouts/application
+  [1m[36mFruit Load (0.6ms)[0m  [1m[34mSELECT "fruits".* FROM "fruits" WHERE "fruits"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered fruits/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 139ms (Views: 102.5ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 10:56:15 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 104ms (Views: 95.2ms | ActiveRecord: 1.1ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2231788589370959220)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(2231788589370959220)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (192.5ms)[0m  [1m[35mDROP DATABASE IF EXISTS "FruitApp_development"[0m
+  [1m[35m (190.8ms)[0m  [1m[35mDROP DATABASE IF EXISTS "FruitApp_test"[0m
+  [1m[35m (391.1ms)[0m  [1m[35mCREATE DATABASE "FruitApp_development" ENCODING = 'unicode'[0m
+  [1m[35m (387.3ms)[0m  [1m[35mCREATE DATABASE "FruitApp_test" ENCODING = 'unicode'[0m
+  [1m[35m (4.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (2.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2231788589370959220)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateFruits (20170915151452)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (4.9ms)[0m  [1m[35mCREATE TABLE "fruits" ("id" bigserial primary key, "name" character varying, "phone" character varying, "email" character varying, "location" character varying, "description" character varying, "img_url" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170915151452"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to DeviseCreateUsers (20170918134737)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (4.6ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "name" character varying DEFAULT '' NOT NULL, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "phone" character varying, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" inet, "last_sign_in_ip" inet, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (2.6ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  [1m[35m (1.8ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170918134737"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddUserToFruits (20170918152932)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "fruits" ADD "user_id" bigint[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE  INDEX  "index_fruits_on_user_id" ON "fruits"  ("user_id")[0m
+  [1m[35m (2.0ms)[0m  [1m[35mALTER TABLE "fruits" ADD CONSTRAINT "fk_rails_1801fcf1da"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170918152932"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateAppointments (20171013175354)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (6.0ms)[0m  [1m[35mCREATE TABLE "appointments" ("id" bigserial primary key, "date_and_time" timestamp NOT NULL, "location" character varying NOT NULL, "notes" character varying, "user_id" bigint NOT NULL, "fruit_id" bigint NOT NULL, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, CONSTRAINT "fk_rails_9e31213785"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+, CONSTRAINT "fk_rails_d22950fb90"
+FOREIGN KEY ("fruit_id")
+  REFERENCES "fruits" ("id")
+)[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE  INDEX  "index_appointments_on_user_id" ON "appointments"  ("user_id")[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE  INDEX  "index_appointments_on_fruit_id" ON "appointments"  ("fruit_id")[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171013175354"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddPictureToUser (20171127152616)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.5ms)[0m  [1m[35mALTER TABLE "users" ADD "picture" character varying[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171127152616"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-11-27 15:58:30.951196"], ["updated_at", "2017-11-27 15:58:30.951196"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(2231788589370959220)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 10:58:42 -0500
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (2.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Completed 401 Unauthorized in 40ms (ActiveRecord: 8.6ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-27 10:58:42 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (227.7ms)
+Completed 200 OK in 361ms (Views: 343.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-27 10:58:45 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 96ms (Views: 94.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_up" for 127.0.0.1 at 2017-11-27 10:58:46 -0500
+Processing by RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 128ms (Views: 126.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/d/users" for 127.0.0.1 at 2017-11-27 10:59:02 -0500
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"G1TtKNVu63SxD3iB3u/lMJUUMvPnX+G2VhtZd80ix9cR7n1MuKNiZUPO6dFqilpZelmQJpm+eO3ywes2o4Oddg==", "user"=>{"name"=>"Drew Dandrea", "email"=>"d.dandrea00@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "d.dandrea00@gmail.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Drew Dandrea"], ["email", "d.dandrea00@gmail.com"], ["encrypted_password", "$2a$11$pK/I0ab3jxPLRjNsZN8gRudukU76h6fFMKbh2KJIBUk9ZrLLyD0Fe"], ["created_at", "2017-11-27 15:59:03.034617"], ["updated_at", "2017-11-27 15:59:03.034617"]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "last_sign_in_at" = $3, "current_sign_in_ip" = $4, "last_sign_in_ip" = $5, "updated_at" = $6 WHERE "users"."id" = $7[0m  [["sign_in_count", 1], ["current_sign_in_at", "2017-11-27 15:59:03.039541"], ["last_sign_in_at", "2017-11-27 15:59:03.039541"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_ip", "127.0.0.1/32"], ["updated_at", "2017-11-27 15:59:03.040212"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 156ms (ActiveRecord: 4.3ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 10:59:03 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 105ms (Views: 93.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/d/users/edit.1" for 127.0.0.1 at 2017-11-27 10:59:04 -0500
+Processing by RegistrationsController#edit as 
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 137ms (Views: 133.5ms | ActiveRecord: 0.5ms)
+
+
+Started PUT "/d/users" for 127.0.0.1 at 2017-11-27 10:59:22 -0500
+Processing by RegistrationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uJHDMfh4q9VffBeICfka54IjHS1RSd2umlhu1lyaPbHrBjE8JYrhyuLJCrAVVWNjuUfpNpuIYIN6YbeY/TOnTA==", "user"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007f9f450cdf28 @tempfile=#<Tempfile:/var/folders/hv/fgmx477n7x34dq41k7k410r40000gn/T/RackMultipart20171127-86011-d2ypnt.jpeg>, @original_filename="drew.jpeg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[image]\"; filename=\"drew.jpeg\"\r\nContent-Type: image/jpeg\r\n">, "name"=>"Drew Dandrea", "phone"=>"", "email"=>"d.dandrea00@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "current_password"=>"[FILTERED]"}, "commit"=>"Update"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: :image
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "phone" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["phone", ""], ["updated_at", "2017-11-27 15:59:22.164228"], ["id", 1]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 135ms (ActiveRecord: 2.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:59:22 -0500
+Processing by FruitsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/index.html.erb within layouts/application
+  [1m[36mFruit Load (0.6ms)[0m  [1m[34mSELECT "fruits".* FROM "fruits" WHERE "fruits"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered fruits/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 81ms (Views: 60.2ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 10:59:24 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 78ms (Views: 70.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 11:11:30 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 89ms (Views: 61.9ms | ActiveRecord: 6.1ms)
+
+
+Started GET "/d/users/edit.1" for 127.0.0.1 at 2017-11-27 11:11:32 -0500
+Processing by RegistrationsController#edit as 
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 90ms (Views: 86.5ms | ActiveRecord: 0.7ms)
+
+
+Started PUT "/d/users" for 127.0.0.1 at 2017-11-27 11:11:43 -0500
+Processing by RegistrationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tKkuKqsg+p5X54vNhq0nqGaq+FnUscGy990CU3mIbNLnPtwndtKwgepSlvWaAV4sXc4MQh5wfJ8X5Nsd2CH2Lw==", "user"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007f9f42396cd0 @tempfile=#<Tempfile:/var/folders/hv/fgmx477n7x34dq41k7k410r40000gn/T/RackMultipart20171127-86011-3qm3qe.jpeg>, @original_filename="drew.jpeg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[image]\"; filename=\"drew.jpeg\"\r\nContent-Type: image/jpeg\r\n">, "name"=>"Drew Dandrea", "phone"=>"", "email"=>"d.dandrea00@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "current_password"=>"[FILTERED]"}, "commit"=>"Update"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: :image
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 142ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-27 11:11:43 -0500
+Processing by FruitsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/index.html.erb within layouts/application
+  [1m[36mFruit Load (1.5ms)[0m  [1m[34mSELECT "fruits".* FROM "fruits" WHERE "fruits"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered fruits/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 101ms (Views: 87.4ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 11:11:46 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (4.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 71ms (Views: 61.7ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 11:11:58 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 97ms (Views: 89.2ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 11:27:57 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 204ms (ActiveRecord: 5.5ms)
+
+
+  
+NameError (undefined local variable or method `user' for #<UsersController:0x007f9f3f4e9180>
+Did you mean?  @user):
+  
+app/controllers/users_controller.rb:5:in `show'
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 11:29:49 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 112ms (Views: 78.0ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/d/users/edit.1" for 127.0.0.1 at 2017-11-27 11:29:51 -0500
+Processing by RegistrationsController#edit as 
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 118ms (Views: 113.6ms | ActiveRecord: 0.9ms)
+
+
+Started PUT "/d/users" for 127.0.0.1 at 2017-11-27 11:30:04 -0500
+Processing by RegistrationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"guWnUJgVvNJVNJ2HsZ6W/HlzkLgvd8UaPxh5EGRGffjRclVdRef2zeiBgL+tMu94Qhdko+W2eDffIaBexe/nBQ==", "user"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007f9f44282540 @tempfile=#<Tempfile:/var/folders/hv/fgmx477n7x34dq41k7k410r40000gn/T/RackMultipart20171127-86011-1izl42v.jpg>, @original_filename="GA-PORTRAITS-Shoot-6-Drew-Dandrea-FINAL-v1.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[image]\"; filename=\"GA-PORTRAITS-Shoot-6-Drew-Dandrea-FINAL-v1.jpg\"\r\nContent-Type: image/jpeg\r\n">, "name"=>"Drew Dandrea", "phone"=>"", "email"=>"d.dandrea00@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "current_password"=>"[FILTERED]"}, "commit"=>"Update"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: :image
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 147ms (ActiveRecord: 0.9ms)
+
+
+  
+NoMethodError (undefined method `update_user_attributes' for #<User:0x007f9f44253420>
+Did you mean?  update_attributes
+               update_attributes!
+               update_attribute):
+  
+activemodel (5.1.4) lib/active_model/attribute_methods.rb:432:in `method_missing'
+activesupport (5.1.4) lib/active_support/callbacks.rb:413:in `block in make_lambda'
+activesupport (5.1.4) lib/active_support/callbacks.rb:197:in `block (2 levels) in halting'
+activesupport (5.1.4) lib/active_support/callbacks.rb:601:in `block (2 levels) in default_terminator'
+activesupport (5.1.4) lib/active_support/callbacks.rb:600:in `catch'
+activesupport (5.1.4) lib/active_support/callbacks.rb:600:in `block in default_terminator'
+activesupport (5.1.4) lib/active_support/callbacks.rb:198:in `block in halting'
+activesupport (5.1.4) lib/active_support/callbacks.rb:507:in `block in invoke_before'
+activesupport (5.1.4) lib/active_support/callbacks.rb:507:in `each'
+activesupport (5.1.4) lib/active_support/callbacks.rb:507:in `invoke_before'
+activesupport (5.1.4) lib/active_support/callbacks.rb:130:in `run_callbacks'
+activesupport (5.1.4) lib/active_support/callbacks.rb:827:in `_run_save_callbacks'
+activerecord (5.1.4) lib/active_record/callbacks.rb:336:in `create_or_update'
+activerecord (5.1.4) lib/active_record/persistence.rb:129:in `save'
+activerecord (5.1.4) lib/active_record/validations.rb:44:in `save'
+activerecord (5.1.4) lib/active_record/attribute_methods/dirty.rb:35:in `save'
+activerecord (5.1.4) lib/active_record/transactions.rb:308:in `block (2 levels) in save'
+activerecord (5.1.4) lib/active_record/transactions.rb:384:in `block in with_transaction_returning_status'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/database_statements.rb:233:in `transaction'
+activerecord (5.1.4) lib/active_record/transactions.rb:210:in `transaction'
+activerecord (5.1.4) lib/active_record/transactions.rb:381:in `with_transaction_returning_status'
+activerecord (5.1.4) lib/active_record/transactions.rb:308:in `block in save'
+activerecord (5.1.4) lib/active_record/transactions.rb:323:in `rollback_active_record_state!'
+activerecord (5.1.4) lib/active_record/transactions.rb:307:in `save'
+activerecord (5.1.4) lib/active_record/suppressor.rb:42:in `save'
+activerecord (5.1.4) lib/active_record/persistence.rb:285:in `block in update'
+activerecord (5.1.4) lib/active_record/transactions.rb:384:in `block in with_transaction_returning_status'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/database_statements.rb:235:in `block in transaction'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/transaction.rb:194:in `block in within_new_transaction'
+/Users/drewdandrea/.rbenv/versions/2.4.1/lib/ruby/2.4.0/monitor.rb:214:in `mon_synchronize'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/transaction.rb:191:in `within_new_transaction'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/database_statements.rb:235:in `transaction'
+activerecord (5.1.4) lib/active_record/transactions.rb:210:in `transaction'
+activerecord (5.1.4) lib/active_record/transactions.rb:381:in `with_transaction_returning_status'
+activerecord (5.1.4) lib/active_record/persistence.rb:283:in `update'
+devise (4.3.0) lib/devise/models/database_authenticatable.rb:74:in `update_with_password'
+devise (4.3.0) app/controllers/devise/registrations_controller.rb:95:in `update_resource'
+devise (4.3.0) app/controllers/devise/registrations_controller.rb:48:in `update'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/mapper.rb:16:in `block in <class:Constraints>'
+actionpack (5.1.4) lib/action_dispatch/routing/mapper.rb:46:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+warden (1.2.7) lib/warden/manager.rb:35:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started PUT "/d/users" for 127.0.0.1 at 2017-11-27 11:31:13 -0500
+Processing by RegistrationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"guWnUJgVvNJVNJ2HsZ6W/HlzkLgvd8UaPxh5EGRGffjRclVdRef2zeiBgL+tMu94Qhdko+W2eDffIaBexe/nBQ==", "user"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007f9f4421a008 @tempfile=#<Tempfile:/var/folders/hv/fgmx477n7x34dq41k7k410r40000gn/T/RackMultipart20171127-86011-1ow61hq.jpg>, @original_filename="GA-PORTRAITS-Shoot-6-Drew-Dandrea-FINAL-v1.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[image]\"; filename=\"GA-PORTRAITS-Shoot-6-Drew-Dandrea-FINAL-v1.jpg\"\r\nContent-Type: image/jpeg\r\n">, "name"=>"Drew Dandrea", "phone"=>"", "email"=>"d.dandrea00@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "current_password"=>"[FILTERED]"}, "commit"=>"Update"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: :image
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 154ms (ActiveRecord: 7.1ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+activerecord (5.1.4) lib/active_record/persistence.rb:280:in `update'
+activesupport (5.1.4) lib/active_support/callbacks.rb:413:in `block in make_lambda'
+activesupport (5.1.4) lib/active_support/callbacks.rb:197:in `block (2 levels) in halting'
+activesupport (5.1.4) lib/active_support/callbacks.rb:601:in `block (2 levels) in default_terminator'
+activesupport (5.1.4) lib/active_support/callbacks.rb:600:in `catch'
+activesupport (5.1.4) lib/active_support/callbacks.rb:600:in `block in default_terminator'
+activesupport (5.1.4) lib/active_support/callbacks.rb:198:in `block in halting'
+activesupport (5.1.4) lib/active_support/callbacks.rb:507:in `block in invoke_before'
+activesupport (5.1.4) lib/active_support/callbacks.rb:507:in `each'
+activesupport (5.1.4) lib/active_support/callbacks.rb:507:in `invoke_before'
+activesupport (5.1.4) lib/active_support/callbacks.rb:130:in `run_callbacks'
+activesupport (5.1.4) lib/active_support/callbacks.rb:827:in `_run_save_callbacks'
+activerecord (5.1.4) lib/active_record/callbacks.rb:336:in `create_or_update'
+activerecord (5.1.4) lib/active_record/persistence.rb:129:in `save'
+activerecord (5.1.4) lib/active_record/validations.rb:44:in `save'
+activerecord (5.1.4) lib/active_record/attribute_methods/dirty.rb:35:in `save'
+activerecord (5.1.4) lib/active_record/transactions.rb:308:in `block (2 levels) in save'
+activerecord (5.1.4) lib/active_record/transactions.rb:384:in `block in with_transaction_returning_status'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/database_statements.rb:233:in `transaction'
+activerecord (5.1.4) lib/active_record/transactions.rb:210:in `transaction'
+activerecord (5.1.4) lib/active_record/transactions.rb:381:in `with_transaction_returning_status'
+activerecord (5.1.4) lib/active_record/transactions.rb:308:in `block in save'
+activerecord (5.1.4) lib/active_record/transactions.rb:323:in `rollback_active_record_state!'
+activerecord (5.1.4) lib/active_record/transactions.rb:307:in `save'
+activerecord (5.1.4) lib/active_record/suppressor.rb:42:in `save'
+activerecord (5.1.4) lib/active_record/persistence.rb:285:in `block in update'
+activerecord (5.1.4) lib/active_record/transactions.rb:384:in `block in with_transaction_returning_status'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/database_statements.rb:235:in `block in transaction'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/transaction.rb:194:in `block in within_new_transaction'
+/Users/drewdandrea/.rbenv/versions/2.4.1/lib/ruby/2.4.0/monitor.rb:214:in `mon_synchronize'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/transaction.rb:191:in `within_new_transaction'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/database_statements.rb:235:in `transaction'
+activerecord (5.1.4) lib/active_record/transactions.rb:210:in `transaction'
+activerecord (5.1.4) lib/active_record/transactions.rb:381:in `with_transaction_returning_status'
+activerecord (5.1.4) lib/active_record/persistence.rb:283:in `update'
+devise (4.3.0) lib/devise/models/database_authenticatable.rb:74:in `update_with_password'
+devise (4.3.0) app/controllers/devise/registrations_controller.rb:95:in `update_resource'
+devise (4.3.0) app/controllers/devise/registrations_controller.rb:48:in `update'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/mapper.rb:16:in `block in <class:Constraints>'
+actionpack (5.1.4) lib/action_dispatch/routing/mapper.rb:46:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+warden (1.2.7) lib/warden/manager.rb:35:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started PUT "/d/users" for 127.0.0.1 at 2017-11-27 11:31:24 -0500
+Processing by RegistrationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"guWnUJgVvNJVNJ2HsZ6W/HlzkLgvd8UaPxh5EGRGffjRclVdRef2zeiBgL+tMu94Qhdko+W2eDffIaBexe/nBQ==", "user"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007f9f4245fef0 @tempfile=#<Tempfile:/var/folders/hv/fgmx477n7x34dq41k7k410r40000gn/T/RackMultipart20171127-86011-13fd9tn.jpg>, @original_filename="GA-PORTRAITS-Shoot-6-Drew-Dandrea-FINAL-v1.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[image]\"; filename=\"GA-PORTRAITS-Shoot-6-Drew-Dandrea-FINAL-v1.jpg\"\r\nContent-Type: image/jpeg\r\n">, "name"=>"Drew Dandrea", "phone"=>"", "email"=>"d.dandrea00@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "current_password"=>"[FILTERED]"}, "commit"=>"Update"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: :image
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 172ms (ActiveRecord: 7.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-27 11:31:24 -0500
+Processing by FruitsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/index.html.erb within layouts/application
+  [1m[36mFruit Load (0.5ms)[0m  [1m[34mSELECT "fruits".* FROM "fruits" WHERE "fruits"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered fruits/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 90ms (Views: 78.0ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 11:31:27 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 84ms (Views: 76.8ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/d/users/edit.1" for 127.0.0.1 at 2017-11-27 11:31:28 -0500
+Processing by RegistrationsController#edit as 
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 144ms (Views: 140.7ms | ActiveRecord: 0.6ms)
+
+
+Started PUT "/d/users" for 127.0.0.1 at 2017-11-27 11:31:38 -0500
+Processing by RegistrationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4PG/FgrGpTG700FzRGpf+VertP9sguXfQV4UlQfNpxizZk0b1zTvLgZmXEtYxiZ9bM9A5KZDWPKhZ83bpmQ95Q==", "user"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007f9f45158cb8 @tempfile=#<Tempfile:/var/folders/hv/fgmx477n7x34dq41k7k410r40000gn/T/RackMultipart20171127-86011-1loo6gq.jpeg>, @original_filename="drew.jpeg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[image]\"; filename=\"drew.jpeg\"\r\nContent-Type: image/jpeg\r\n">, "name"=>"Drew Dandrea", "phone"=>"", "email"=>"d.dandrea00@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "current_password"=>"[FILTERED]"}, "commit"=>"Update"}
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: :image
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 139ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-27 11:31:38 -0500
+Processing by FruitsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/index.html.erb within layouts/application
+  [1m[36mFruit Load (0.5ms)[0m  [1m[34mSELECT "fruits".* FROM "fruits" WHERE "fruits"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered fruits/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 62ms (Views: 58.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 11:31:40 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 83ms (Views: 75.2ms | ActiveRecord: 2.3ms)
+
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (193.9ms)[0m  [1m[35mDROP DATABASE IF EXISTS "FruitApp_development"[0m
+  [1m[35m (193.5ms)[0m  [1m[35mDROP DATABASE IF EXISTS "FruitApp_test"[0m
+  [1m[35m (405.6ms)[0m  [1m[35mCREATE DATABASE "FruitApp_development" ENCODING = 'unicode'[0m
+  [1m[35m (397.5ms)[0m  [1m[35mCREATE DATABASE "FruitApp_test" ENCODING = 'unicode'[0m
+  [1m[35m (5.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (3.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2231788589370959220)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateFruits (20170915151452)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (18.1ms)[0m  [1m[35mCREATE TABLE "fruits" ("id" bigserial primary key, "name" character varying, "phone" character varying, "email" character varying, "location" character varying, "description" character varying, "img_url" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (3.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170915151452"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Migrating to DeviseCreateUsers (20170918134737)
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (4.5ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "name" character varying DEFAULT '' NOT NULL, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "phone" character varying, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" inet, "last_sign_in_ip" inet, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (3.2ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170918134737"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddUserToFruits (20170918152932)
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "fruits" ADD "user_id" bigint[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE  INDEX  "index_fruits_on_user_id" ON "fruits"  ("user_id")[0m
+  [1m[35m (3.0ms)[0m  [1m[35mALTER TABLE "fruits" ADD CONSTRAINT "fk_rails_1801fcf1da"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170918152932"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateAppointments (20171013175354)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (11.9ms)[0m  [1m[35mCREATE TABLE "appointments" ("id" bigserial primary key, "date_and_time" timestamp NOT NULL, "location" character varying NOT NULL, "notes" character varying, "user_id" bigint NOT NULL, "fruit_id" bigint NOT NULL, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, CONSTRAINT "fk_rails_9e31213785"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+, CONSTRAINT "fk_rails_d22950fb90"
+FOREIGN KEY ("fruit_id")
+  REFERENCES "fruits" ("id")
+)[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE  INDEX  "index_appointments_on_user_id" ON "appointments"  ("user_id")[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE  INDEX  "index_appointments_on_fruit_id" ON "appointments"  ("fruit_id")[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171013175354"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddPictureToUser (20171127152616)
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(2231788589370959220)[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-11-27 16:39:18.510429"], ["updated_at", "2017-11-27 16:39:18.510429"]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (194.8ms)[0m  [1m[35mDROP DATABASE IF EXISTS "FruitApp_development"[0m
+  [1m[35m (197.8ms)[0m  [1m[35mDROP DATABASE IF EXISTS "FruitApp_test"[0m
+  [1m[35m (397.3ms)[0m  [1m[35mCREATE DATABASE "FruitApp_development" ENCODING = 'unicode'[0m
+  [1m[35m (389.4ms)[0m  [1m[35mCREATE DATABASE "FruitApp_test" ENCODING = 'unicode'[0m
+  [1m[35m (4.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (2.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2231788589370959220)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateFruits (20170915151452)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (7.6ms)[0m  [1m[35mCREATE TABLE "fruits" ("id" bigserial primary key, "name" character varying, "phone" character varying, "email" character varying, "location" character varying, "description" character varying, "img_url" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170915151452"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to DeviseCreateUsers (20170918134737)
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (4.8ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "name" character varying DEFAULT '' NOT NULL, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "phone" character varying, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" inet, "last_sign_in_ip" inet, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170918134737"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddUserToFruits (20170918152932)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "fruits" ADD "user_id" bigint[0m
+  [1m[35m (2.8ms)[0m  [1m[35mCREATE  INDEX  "index_fruits_on_user_id" ON "fruits"  ("user_id")[0m
+  [1m[35m (5.4ms)[0m  [1m[35mALTER TABLE "fruits" ADD CONSTRAINT "fk_rails_1801fcf1da"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170918152932"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateAppointments (20171013175354)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (9.5ms)[0m  [1m[35mCREATE TABLE "appointments" ("id" bigserial primary key, "date_and_time" timestamp NOT NULL, "location" character varying NOT NULL, "notes" character varying, "user_id" bigint NOT NULL, "fruit_id" bigint NOT NULL, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, CONSTRAINT "fk_rails_9e31213785"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+, CONSTRAINT "fk_rails_d22950fb90"
+FOREIGN KEY ("fruit_id")
+  REFERENCES "fruits" ("id")
+)[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE  INDEX  "index_appointments_on_user_id" ON "appointments"  ("user_id")[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE  INDEX  "index_appointments_on_fruit_id" ON "appointments"  ("fruit_id")[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171013175354"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddPictureToUser (20171127152616)
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "users" ADD "picture" character varying[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171127152616"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-11-27 16:39:32.371637"], ["updated_at", "2017-11-27 16:39:32.371637"]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(2231788589370959220)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/d/users/edit.1" for 127.0.0.1 at 2017-11-27 11:41:47 -0500
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RegistrationsController#edit as 
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Completed 401 Unauthorized in 28ms (ActiveRecord: 7.2ms)
+
+
+Started GET "/d/users/edit.1" for 127.0.0.1 at 2017-11-27 11:41:53 -0500
+Processing by RegistrationsController#edit as 
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 11:41:57 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-27 11:41:57 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (217.8ms)
+Completed 200 OK in 369ms (Views: 328.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/d/users/sign_in" for 127.0.0.1 at 2017-11-27 11:42:12 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uXckXSa8l9VChN45jeuNRHS6iRx7aGdduniJAngOdCfoPMW4OflYJ/cITZqJnFS/i4E2ecaYP4rQtNtbkM829w==", "user"=>{"email"=>"d.dandrea00@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "d.dandrea00@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.6ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uXckXSa8l9VChN45jeuNRHS6iRx7aGdduniJAngOdCfoPMW4OflYJ/cITZqJnFS/i4E2ecaYP4rQtNtbkM829w==", "user"=>{"email"=>"d.dandrea00@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log In"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 210ms (Views: 83.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_in" for 127.0.0.1 at 2017-11-27 11:42:15 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 98ms (Views: 96.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/d/users/sign_up" for 127.0.0.1 at 2017-11-27 11:42:24 -0500
+Processing by RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 135ms (Views: 134.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/d/users" for 127.0.0.1 at 2017-11-27 11:42:42 -0500
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZSgtZ9xxbu3bSNpPiR5YhiTefFAuMYITPIFcmy0RPWJvkr0Dsbzn/CmJSx89e+fvy5PehVDQG0iYW+7aQ7Bnww==", "user"=>{"name"=>"Drew Dandrea", "email"=>"d.dandrea00@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "d.dandrea00@gmail.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Drew Dandrea"], ["email", "d.dandrea00@gmail.com"], ["encrypted_password", "$2a$11$2fFIP9N0wfAxbwtR.KkYY.Xu6.9omsHyNK9UCWT/q6muZpaXullAe"], ["created_at", "2017-11-27 16:42:42.920446"], ["updated_at", "2017-11-27 16:42:42.920446"]]
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "last_sign_in_at" = $3, "current_sign_in_ip" = $4, "last_sign_in_ip" = $5, "updated_at" = $6 WHERE "users"."id" = $7[0m  [["sign_in_count", 1], ["current_sign_in_at", "2017-11-27 16:42:42.925386"], ["last_sign_in_at", "2017-11-27 16:42:42.925386"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_ip", "127.0.0.1/32"], ["updated_at", "2017-11-27 16:42:42.926349"], ["id", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 147ms (ActiveRecord: 4.1ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 11:42:42 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 94ms (Views: 83.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/d/users/edit.1" for 127.0.0.1 at 2017-11-27 11:42:46 -0500
+Processing by RegistrationsController#edit as 
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 119ms (Views: 115.3ms | ActiveRecord: 0.6ms)
+
+
+Started PUT "/d/users" for 127.0.0.1 at 2017-11-27 11:42:58 -0500
+Processing by RegistrationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jaqZHbPs55Ien2h/nDe5IaWWqoWNsoHtMRXsgYvf/7TePWsQbh6tjaMqdUeAm8ClnvJenkdzPMDRLDXPKnZlSQ==", "user"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fbccac0da08 @tempfile=#<Tempfile:/var/folders/hv/fgmx477n7x34dq41k7k410r40000gn/T/RackMultipart20171127-87266-16mz5h1.jpeg>, @original_filename="drew.jpeg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[image]\"; filename=\"drew.jpeg\"\r\nContent-Type: image/jpeg\r\n">, "name"=>"Drew Dandrea", "phone"=>"", "email"=>"d.dandrea00@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "current_password"=>"[FILTERED]"}, "commit"=>"Update"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: :image
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 210ms (Views: 78.7ms | ActiveRecord: 0.8ms)
+
+
+Started PUT "/d/users" for 127.0.0.1 at 2017-11-27 11:43:26 -0500
+Processing by RegistrationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"X8nDUVTlWvqmglTw/hOBdQLNesdQS0Mne3LRUHzyJj8MXjFciRcQ5Rs3Scjiv/jxOamO3JqK/gqbSwge3Vu8wg==", "user"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fbcd01a7568 @tempfile=#<Tempfile:/var/folders/hv/fgmx477n7x34dq41k7k410r40000gn/T/RackMultipart20171127-87266-mzgz7j.jpeg>, @original_filename="drew.jpeg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[image]\"; filename=\"drew.jpeg\"\r\nContent-Type: image/jpeg\r\n">, "name"=>"Drew Dandrea", "phone"=>"", "email"=>"d.dandrea00@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "current_password"=>"[FILTERED]"}, "commit"=>"Update"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: :image
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "phone" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["phone", ""], ["updated_at", "2017-11-27 16:43:26.719369"], ["id", 1]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 139ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-27 11:43:26 -0500
+Processing by FruitsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/index.html.erb within layouts/application
+  [1m[36mFruit Load (1.2ms)[0m  [1m[34mSELECT "fruits".* FROM "fruits" WHERE "fruits"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered fruits/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 111ms (Views: 81.3ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 11:43:29 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 75ms (Views: 66.9ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 11:45:31 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 57ms (Views: 51.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/d/users/edit.1" for 127.0.0.1 at 2017-11-27 11:45:36 -0500
+Processing by RegistrationsController#edit as 
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 99ms (Views: 95.7ms | ActiveRecord: 0.6ms)
+
+
+Started PUT "/d/users" for 127.0.0.1 at 2017-11-27 11:45:49 -0500
+Processing by RegistrationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5yn5MciFQoLcmH944OM8m0heo7sjQA8rlR+G9lhHf860vgs8FXcInWEtYkD8T0UfczpXoOmBsgZ1Jl+4+e7lMw==", "user"=>{"picture"=>#<ActionDispatch::Http::UploadedFile:0x007fbccad75a30 @tempfile=#<Tempfile:/var/folders/hv/fgmx477n7x34dq41k7k410r40000gn/T/RackMultipart20171127-87266-5cvtab.jpeg>, @original_filename="drew.jpeg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[picture]\"; filename=\"drew.jpeg\"\r\nContent-Type: image/jpeg\r\n">, "name"=>"Drew Dandrea", "phone"=>"", "email"=>"d.dandrea00@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "current_password"=>"[FILTERED]"}, "commit"=>"Update"}
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "picture" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["picture", "drew.jpeg"], ["updated_at", "2017-11-27 16:45:49.353165"], ["id", 1]]
+  [1m[35m (6.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 155ms (ActiveRecord: 9.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-27 11:45:49 -0500
+Processing by FruitsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering fruits/index.html.erb within layouts/application
+  [1m[36mFruit Load (0.4ms)[0m  [1m[34mSELECT "fruits".* FROM "fruits" WHERE "fruits"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered fruits/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 106ms (Views: 101.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 11:45:52 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (296.8ms)
+Completed 500 Internal Server Error in 309ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `user' for #<#<Class:0x007fbcd02aaf78>:0x007fbccb1d6688>
+Did you mean?  @user):
+    2: 
+    3: <h1><%= @user.name %></h1>
+    4: <div class="pic">
+    5:   <%= image_tag user.picture_url if @user.picture? %>
+    6: </div>
+    7: <h4>Phone: <%= @user.phone %></h4>
+    8: <h4>Email: <%= @user.email %></h4>
+  
+app/views/users/show.html.erb:5:in `_app_views_users_show_html_erb__3946266565020812494_70224413948340'
+Started GET "/users/1" for 127.0.0.1 at 2017-11-27 11:46:31 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (6.8ms)
+Completed 500 Internal Server Error in 55ms (ActiveRecord: 10.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <%= stylesheet_link_tag    "user" %>
+    2: 
+    3: <h1><%= @user.name %></h1>
+    4: <div class="pic">
+    5:   <%= image_tag user.picture_url if @user.picture? %>
+    6: </div>
+  
+app/views/users/show.html.erb:3:in `_app_views_users_show_html_erb__3946266565020812494_70224442590620'

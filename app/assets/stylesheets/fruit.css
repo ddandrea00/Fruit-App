@@ -37,9 +37,14 @@ a{
 form {
   display: inline-block;
   margin: auto;
-  /* align-items: center;
-  justify-content: center;
-  flex-direction: column; */
   width: 175px;
   height: 25px;
+}
+
+label{
+margin: 10px;
+}
+
+.add {
+  margin: 15px;
 }

@@ -11,10 +11,19 @@ h1{
 
 }
 
+form{
+  display: inline;
+}
+
 .field{
  border-top:5px;
+ margin: 10px;
 }
 
 a{
   color:black;
+}
+
+.forgot{
+  margin: 10px;
 }
