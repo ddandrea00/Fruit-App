@@ -1,6 +1,6 @@
 body{
   font-family: 'Questrial', sans-serif;
-  /*font-family: 'NTR', sans-serif;*/
+
 }
 
 h1{
@@ -25,11 +25,26 @@ a{
  border:1px solid black;
  margin: 5px;
  padding: 10px;
+ 
 }
 
-
-#new_form{
+.appointment{
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
+}
 
+form {
+  display: inline-block;
+  margin: auto;
+  width: 175px;
+  height: 25px;
+}
+
+label{
+margin: 10px;
+}
+
+.add {
+  margin: 15px;
 }

@@ -2,9 +2,9 @@
 
 <h1><%= @user.name %></h1>
 <div class="pic">
-  <img src="http://www.shawnee.edu/_resources/images/profile-placeholder.png">
-</div>
+  <%= image_tag attachment_url(@user, :image, :fill, 150, 150, format: "jpeg") %> 
+</div
+
 <h4>Phone: <%= @user.phone %></h4>
 <h4>Email: <%= @user.email %></h4>
-
-<p> <%= link_to "Edit", edit_user_registration_path(current_user) %> </p>
+<p> <%= link_to "Edit Info", edit_user_registration_path(current_user) %> </p>

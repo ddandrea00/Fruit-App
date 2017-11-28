@@ -30,6 +30,9 @@ gem 'jquery-rails', '~> 4.3'
 gem 'fullcalendar-rails'
 gem 'momentjs-rails'
 
+#Heroku Gem
+gem "rails_12factor", group: :production
+
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
@@ -44,6 +47,17 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+# Paperclip gem for easy file attachment library for ActiveRecord.
+gem "paperclip", "~> 5.0.0"
+
+#CarrierWave gem for more flexible file uploading.
+gem "carrierwave"
+
+# Interface between the Ruby programming language and ImageMagick image processing library.
+gem 'mini_magick'
+
+gem 'fog-aws'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -64,3 +78,6 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+#Heroku Gem
+gem "rails_12factor", group: :production

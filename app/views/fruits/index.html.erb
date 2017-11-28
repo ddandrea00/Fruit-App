@@ -1,18 +1,49 @@
 <%= stylesheet_link_tag    "fruit" %>
+
 <h3>My Fruits</h3>
 <div class="control">
-<%= link_to "(+)", new_fruit_path %>
-<a> <i class="fa fa-sort-alpha-asc" aria-hidden="true"></i> </a>
+      <p>
+        <a href="/fruits/new"> <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-plus-sign"></span> New Fruit
+        </button> 
+        </a>
+      </p>
+    <%# Icons for sorting alphabetically and also by most recent date of fruit added. %>
+      <%# Sort by:
+        <div class= "recent">
+        <a> <i class="fa fa-sort-alpha-asc" aria-hidden="true"></i> Most Recent</a>
+        </div>
+        <div class= "alpha">
+        <a> <i class="fa fa-sort-alpha-asc" aria-hidden="true"></i> Alphabetically</a>
+        </div> %>
 </div>
 
+<%# Displays each fruit belonging to user by name, created at date, and location where fruit was met. %>
 <ul class = "fruits">
   <% @fruits.each do |fruit| %>
   <li>
+    <a href="/fruits/<%= fruit.id %>">
     <div id="fruit">
-      <h2> <%= link_to fruit.name, fruit %> </h2>
+      <h2> <%= fruit.name %> </h2>
       <p><%= fruit.created_at.strftime("%m-%d-%Y") %> <br />
       <%= fruit.location %></p>
     </div>
+    </a>
   </li>
   <% end %>
 </ul>
+
+<%# Writting scripts to add functionality to sort alphabetically and also by most recent fruit. %>
+
+<%# <script>
+
+$('.alpha').on("click", function(){
+    console.log("Yerp")
+    console.log( <% @fruits)
+    <% @fruits.sort_by{ |fruit| fruit.name.downcase } %>
+<%# }); %>
+
+<%# $('.recent').on("click", function(){
+    console.log("Yup")
+});
+</script> %>

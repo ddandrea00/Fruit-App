@@ -1,0 +1,19 @@
+<%= stylesheet_link_tag    "user" %>
+
+<h3>My Appointments</h3>
+<ul class = "appointments">
+  <% @appointments.each do |appointment| %>
+  <li>
+  <a href="appointments/<%= appointment.id %>">
+    <div id="appointment">
+      <h2> <%= appointment.date_and_time.strftime("%m-%d-%Y") %> </h2>
+      <%= appointment.location %>
+      <br>
+      <%= appointment.notes%>
+      <p>Created On: <%= appointment.created_at.strftime("%m-%d-%Y") %> <br />
+      </p>
+    </div>
+    </a>
+  </li>
+  <% end %>
+</ul>

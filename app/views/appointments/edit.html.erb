@@ -1,0 +1,22 @@
+<%= stylesheet_link_tag "fruit" %>
+
+<h2>Edit Appointment</h2>
+
+<%= form_for @appointment do |f| %>
+  <%= f.label :date_and_time %>
+  <%= f.date_field :date_and_time %> <br/>
+
+  <%= f.label :location %>
+  <%= f.text_field :location %> <br/>
+
+  <%= f.label :notes %>
+  <%= f.text_field :notes %> <br/>
+
+  <%= f.submit %>
+<% end %>
+
+<p>
+<%= form_for @appointment, method: :delete do |f| %>
+  <%= f.submit "Delete!", class: "delete" %>
+<% end %>
+</p>

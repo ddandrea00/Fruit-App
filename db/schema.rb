@@ -10,10 +10,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170918152932) do
+ActiveRecord::Schema.define(version: 20171127170306) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "appointments", force: :cascade do |t|
+    t.datetime "date_and_time", null: false
+    t.string "location", null: false
+    t.string "notes"
+    t.bigint "user_id", null: false
+    t.bigint "fruit_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["fruit_id"], name: "index_appointments_on_fruit_id"
+    t.index ["user_id"], name: "index_appointments_on_user_id"
+  end
 
   create_table "fruits", force: :cascade do |t|
     t.string "name"
@@ -21,6 +33,7 @@ ActiveRecord::Schema.define(version: 20170918152932) do
     t.string "email"
     t.string "location"
     t.string "description"
+    t.string "img_url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.bigint "user_id"
@@ -32,7 +45,6 @@ ActiveRecord::Schema.define(version: 20170918152932) do
     t.string "email", default: "", null: false
     t.string "encrypted_password", default: "", null: false
     t.string "phone"
-    t.string "image_url"
     t.string "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
@@ -43,9 +55,15 @@ ActiveRecord::Schema.define(version: 20170918152932) do
     t.inet "last_sign_in_ip"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "image_file_name"
+    t.string "image_content_type"
+    t.integer "image_file_size"
+    t.datetime "image_updated_at"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+  add_foreign_key "appointments", "fruits"
+  add_foreign_key "appointments", "users"
   add_foreign_key "fruits", "users"
 end
