@@ -4,7 +4,7 @@ CHECK OUT THE LIVE VERSION ON HEROKU: https://project2-fruit-app.herokuapp.com/
 
 A simple contact management app to keep you organized.
 
-Built Using Runy on Rails, Javascript, JQuery, and Bootstrap.
+Built Using Ruby on Rails, Javascript, JQuery, and Bootstrap.
 
 * Ruby version
 
