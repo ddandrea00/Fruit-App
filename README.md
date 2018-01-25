@@ -2,24 +2,16 @@
 
 CHECK OUT THE LIVE VERSION ON HEROKU: https://project2-fruit-app.herokuapp.com/
 
-A simple contact management app to keep you organized.
+A simple contact management app to keep you organized. Add location, date, and notes about your contacts and schedule appointments to meet them in the future. Perfect for people in sales, large social circles, and general humans who can never remember how they met someone. Very simple and minimal design. Enjoy!
 
-Built Using Ruby on Rails, Javascript, JQuery, and Bootstrap.
+Built Using Runy on Rails, Javascript, JQuery, and Bootstrap.
 
-* Ruby version
+Deployed on Heroku.
 
-* System dependencies
+Full CRUD Functionality
 
-* Configuration
+* Rails 5.1.4
 
-* Database creation
+* Uses Devise and Bootstrap Gems
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* PostgreSQL Database
